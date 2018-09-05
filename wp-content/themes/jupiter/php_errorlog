@@ -1,0 +1,8 @@
+[26-Aug-2018 20:59:19 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/index.php on line 16
+[04-Sep-2018 17:28:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/index.php on line 16
