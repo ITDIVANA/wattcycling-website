@@ -1,0 +1,1 @@
+[01-Oct-2018 00:12:28 CST6CDT] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home/myperf65/public_html/wattcycling.nl/wp-admin/includes/class-wp-filesystem-ssh2.php on line 36

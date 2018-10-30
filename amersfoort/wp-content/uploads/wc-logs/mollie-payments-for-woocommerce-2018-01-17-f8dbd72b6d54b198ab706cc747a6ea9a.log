@@ -1,0 +1,5 @@
+2018-01-17T21:34:14+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 945
+2018-01-17T21:34:17+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_WDbpMzSCv2 (live) created for order 945
+2018-01-17T21:34:17+00:00 DEBUG For order 945 redirect user to payment URL: https://diensten.asnbank.nl/online/ideal/sign?sp=386DE05227A90DC76BA699E2527C4C5C5EC841E1000084801787&trxid=0030002599046306
+2018-01-17T21:35:41+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_WDbpMzSCv2 (live) webhook call for order 945.
+2018-01-17T21:35:41+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 945

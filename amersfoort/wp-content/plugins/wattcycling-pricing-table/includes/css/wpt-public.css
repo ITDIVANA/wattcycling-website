@@ -1,0 +1,218 @@
+.wpt_wrap {
+	float: left;
+	margin: 0 16.6%;
+	width: 66.9%;
+	color:#000 !important;
+}
+.wpt_single {
+  border-bottom: 5px solid #f1f1f1;
+  border-top: 8px solid #000;
+  width: 32%;
+  margin: 0 0.5% 25px;
+  float:left;
+  box-shadow: 0 0 5px #f1f1f1;
+  background:#fff;
+}
+@media only screen and (max-width: 1200px) and (min-width: 501px) {
+	.wpt_single {
+		width:48%;
+		margin: 0 1%;
+	}
+	.wpt_wrap{
+		margin-top:60px;
+		margin: 0 5%;
+		width: 90%;
+  }
+}
+@media only screen and (max-width: 500px) {
+	.wpt_single {
+		width:100%;
+	}
+	.wpt_wrap{
+		margin-top:60px;
+		width: 90%;
+		margin: 0 5%;
+	}
+}
+.wpt_red.wpt_single{
+	border-top: 8px solid #db291d;
+	margin-top: -70px;
+}
+@media only screen and (max-width: 500px) {
+	.wpt_red.wpt_single{
+		margin-top: -20px;
+	}
+}
+.wpt_title, .wpt_description {
+  border-bottom: 1px solid #f1f1f1;
+}
+.wpt_heading{
+	width:60%;
+	display:inline-block;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px;
+}
+@media only screen and (max-width: 500px) {
+	.wpt_heading {
+	  font-size: 16px;
+	  width: 48%;
+	}
+}
+.wpt_price{
+	display:inline-block;
+	font-size:30px;
+	padding:5px;
+}
+@media only screen and (max-width: 1390px) and (min-width: 1201px) {
+	.wpt_price{
+		font-size: 24px;
+	}
+}
+.wpt_per{
+	width:10%;
+	display:inline-block;
+	font-size:12px;
+}
+.wpt_div_flex {
+  display: flex;
+}
+.wpt_types{
+	padding:10px;
+}
+.wpt_description{
+	padding:10px;
+	font-size:13px;
+}
+.wpt_options{
+	padding:10px;
+}
+.wpt_kies{
+	font-size:16px;
+	font-weight:bold;
+}
+.wpt_dag label,
+.wpt_dag select,
+.wpt_tij label,
+.wpt_tij select{
+	width:100%;
+	min-width:inherit !important;
+	background:inherit !important;
+	-moz-appearance: textfield !important;
+}
+.wpt_dag label,
+.wpt_tij label{
+	min-width:65px;
+}
+.wpt_dag select,
+.wpt_tij select{
+	font-size:14px !important;
+}
+.wpt_dag,
+.wpt_tij{
+	margin-top:10px;
+}
+.wpt_btn {
+  margin-top: 35px;
+  padding: 5px;
+  text-align: center;
+}
+.wpt_btn a {
+  border: 3px solid #db291d;
+  border-radius: 10px;
+  color: #db291d;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  cursor:pointer;
+}
+.wpt_btn a:hover{
+	color:#fff;
+	background-color:#db291d;
+}
+.wpt_red .wpt_btn a{
+	color:#fff;
+	background-color:#db291d;
+}
+.wpt_red .wpt_btn a:hover{
+	color:#db291d;
+	background-color:#fff;
+}
+.wpt_footer{
+	text-align:center;
+	font-style:italic;
+	color:#000000;
+	font-size:13px;
+}
+.wpt_radio{
+	border:solid 3px #f1f1f1;
+	padding:10px;
+	margin-top:10px;
+}
+.wpt_radio {
+  margin: 0.5rem;
+}
+.wpt_radio input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+.wpt_radio input[type="radio"] + .wpt_radio_label:before {
+  content: '';
+  background: #fff;
+  border-radius: 100%;
+  border: 3px solid #f1f1f1;
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  position: relative;
+  top: 3px;
+  margin-right: 6px;
+  vertical-align: top;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+.wpt_radio input[type="radio"]:checked + .wpt_radio_label:before {
+  background-color: #3197EE;
+}
+.wpt_radio input[type="radio"]:focus + .wpt_radio_label:before {
+  outline: none;
+}
+.wpt_radio input[type="radio"]:disabled + .wpt_radio_label:before {
+  border-color: #b4b4b4;
+  background: #b4b4b4;
+}
+.wpt_radio input[type="radio"] + .wpt_radio_label:empty:before {
+  margin-right: 0;
+}
+.wpt_radio_label {
+  display: inline-block;
+}
+/*.dag_1,
+.dag_2,
+.dag_3,
+.dag_4,
+.dag_5,
+.dag_6{
+	display:none;
+}*/
+.wpt_hidden{
+	display:none !important;
+}
+span.punch_card_txt {
+    display: inline-block;
+}
+.punch_card_price_outer {
+		float: right;
+		display: -webkit-inline-box;
+    /*background: url(../images/right-corner.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: 53px 2px;
+    width: 70px;*/
+}
+.wpt_radio.punch_card{padding: 10px 5px;}
+a.wpt_footer_link{color:#db291d !important;}
+a.wpt_footer_link:hover{color:black !important;}

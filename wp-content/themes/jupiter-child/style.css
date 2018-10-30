@@ -10,11 +10,562 @@ Version:        1.0
 
 
 
-/*
-Sample : remove the comment and start adding your own custom CSS rules.
-
-body {
-	background-color:#fff;
+#menu-item-346 a.menu-item-link.js-smooth-scroll{border: 1.5px solid #db291d;border-radius: 5px;padding: 4px 0px;}
+#menu-item-346 a.menu-item-link.js-smooth-scroll:hover{background: #db291d;color: #fff;}
+#menu-item-346 a.menu-item-link.js-smooth-scroll:after{background-color: transparent !important;}
+button#tourFormStepOneSubmitButton,  .voor_alpe_dhuzes_btn{
+    background: #db291d;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    border: 0px;
+    width: 100%;
+}
+div.voor_alpe_dhuzes {
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.component__formField__19s1_ {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 2.625rem;
+    font-size: 1rem;
+    font-family: inherit;
+    box-sizing: border-box;
+    background-color: #FFFFFC;
+    border-radius: 0.125rem;
+    border: 0.0625rem solid #dbdbdb;
+    padding: 0 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #252729;
+    transition: border-color 0.15s cubic-bezier(0.694, 0.0482, 0.335, 1), background-color 0.15s cubic-bezier(0.694, 0.0482, 0.335, 1), box-shadow 0.15s cubic-bezier(0.694, 0.0482, 0.335, 1);
+}
+ .form_outer_div{
+    border: 1px solid #dbdbdb;
+    z-index: 99;
+    background: #fff;
+	} 
+.form_inner_div {
+    padding: 25px;
+}
+.contact_name,  .email_address {
+    width: 100%;
+}
+.email_address {box-sizing: border-box;}
+.textFieldsAndSelects select {
+    min-width: 100% !important;
+}
+.textFieldsAndSelects.locatie {
+    margin-bottom: 25px;
+}
+.component_div {
+    padding: 0.3125rem 0.625rem;
+    color: #FFFFFC;
+    background-color: #db291d;
+    text-align: center;
+    top: 0;
+}
+.formTitle_wattcycling {
+    font-size: 34px !important;
+    font-weight: 700 !important;
+    line-height: 42px;
+    margin-bottom: 10px;
+    text-transform: inherit  !important;
+}
+.form_inner_div hr {
+    border: 0;
+    height: 0.25rem;
+    background-color: #000;
+    margin: 0.75rem auto;
+}
+.titleText__callout__347Ti {
+    font-weight: 600;
+}
+.subText__callout__3jXA3{
+	font-weight: normal;
+}
+.p-small{
+	font-size: 14px;
+	line-height: 24px;
+}
+.callout__tourForm__rMv5t {
+	padding: 1.25rem 3px;
+    border-radius: 0 0 1px 1px;
+    text-align: left;
+}
+.contact_name_div .desired_capacity {
+    width: 100%;
+}
+.form_wattcycling_nl label {
+    padding: 14px 2px;
+    display: block;
+}
+.form_wattcycling_nl strong {
+    color: #444 !important;
+}
+.page-id-791 .a-sticky .mk-header-holder .mk-header-inner.add-header-height {
+    height: 90px !important;
+    background: #fff;
+}
+.page-id-791 .a-sticky .header-logo.fit-logo-img.add-header-height{
+    height: 90px !important;
+}
+.page-id-791  .a-sticky:not(.header-style-4) .mk-header-inner.add-header-height, .page-id-791  ul#menu-primary-menu li.menu-item {
+    line-height: 90px !important;
 }
 
-*/
+@media handheld, only screen and (max-width: 767px){
+		#voor_alpe_dhuzes{display: block;}
+	a.voor_alpe_dhuzes_btn {
+    text-align: center;
+    border-radius: 0 !important;
+}
+a.voor_alpe_dhuzes_btn:hover, a.voor_alpe_dhuzes_btn:focus, a.voor_alpe_dhuzes_btn:active{
+	color: #fff;
+}
+#train-op-de-wattbike-voor-alpe-dhuzes .mk-padding-wrapper{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+
+#train-op-de-wattbike-voor-alpe-dhuzes .mk-padding-wrapper .form_wattbike_voor_alpe_dhuzes {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+#train-op-de-wattbike-voor-alpe-dhuzes .mk-padding-wrapper .text_wattbike_voor_alpe_dhuzes {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+
+	.woocommerce #payment ul.payment_methods li img {
+		margin: 5px 0 0 -10px;
+	}
+body.page-template-default.page.page-id-375.woocommerce-checkout	div#theme-page {
+    top: 50px;
+}
+}
+@media handheld, only screen and (min-width: 767px) and (max-width: 1024px){
+	body.page-template-default.page.page-id-375.woocommerce-checkout #theme-page {
+		width: 55%;
+		margin: 100px auto;
+	}
+}
+@media handheld, only screen and (min-width: 1025px){
+	body.page-template-default.page.page-id-375.woocommerce-checkout  #theme-page {
+		width: 35%;
+		margin: 100px auto;
+	}
+}
+@media handheld, only screen and (min-width: 767px){
+	div#form_outer_div {
+    width: 450px !important;
+	    margin-top: -167px;
+}
+.form_outer_div.direction_down {
+    position: fixed;
+    top: 92px;
+	margin-top: 0 !important;
+}
+.form_outer_div.direction_up {
+    position: fixed;
+	bottom: 0;
+    margin-top: 0 !important;
+}
+.form_outer_div.wattcycling_footer_top {
+    position: fixed;
+    bottom: 400px;
+}
+	#voor_alpe_dhuzes{display: none;}
+	body.page-template-default.page.page-id-375.woocommerce-checkout {
+    background: url(https://wattcycling.nl/wp-content/uploads/2018/04/groupstyled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;	
+    background-attachment: fixed;
+}
+
+	#theme-page .theme-page-wrapper .theme-content {
+    padding: 30px 50px !important;
+}
+.woocommerce #payment ul.payment_methods li img {
+    margin: 0 0 0 -10px;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce .col2-set .col-1{width:100%;}
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .mk-header, body.page-template-default.page.page-id-375.woocommerce-checkout .mk-header-bg {
+    background-color: transparent;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .mk-main-navigation {
+    display: none;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .mk-header-inner, body.page-template-default.page.page-id-375.woocommerce-checkout .mk-header{
+    border-bottom: 0px;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .quantity.buttons_added {
+    position: relative;
+	display:none !important;
+	visibility: hidden !important;
+	height: 0px !important;
+	width: 0px !important;
+}
+body.page-template-default.page.page-id-375 .woocommerce .quantity .minus, body.page-template-default.page.page-id-375  .woocommerce .quantity .plus {
+    z-index: 9999;
+    left: 40px;
+    height: 20px;
+    width: 24px
+}
+body.page-template-default.page.page-id-375  .woocommerce .quantity input.qty {
+    width: 40px;
+    height: 30px;
+}
+body.page-template-default.page.page-id-375 .woocommerce label.screen-reader-text {
+    float: left;
+    padding: 0 10px;
+    line-height: 35px;
+    display: none;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce-info {    
+    border-color: #eee;    
+    background-color: transparent;    
+    padding-bottom: 0px !important;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce form.checkout_coupon {
+     background-color: transparent;    
+    padding: 0px !important;    
+    margin-top: 0px !important;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce #payment {
+    background: #fff;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce #payment div.form-row {
+    text-align: center;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce #payment #place_order{
+	float: none;
+    padding: 20px 60px !important;
+    width: 100%;
+    font-size: 16px;
+}
+span.order_review_btm_txt {
+    padding: 0 18px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce #payment div.payment_box {
+     background-color: #fff;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce #payment div.payment_box::before, body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce #payment ul.payment_methods{border: none;}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce #payment ul.payment_methods li {
+    float: left;
+    width: 100%;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce #payment ul.payment_methods li label {
+    margin-top: 25px;
+    float: left;
+    width: 10%;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce #payment div.payment_box {
+    position: unset;
+    width: 90%;
+    margin: 13px;
+}
+.woocommerce-info{
+    border-width:0px !important;
+}
+form.checkout_coupon{
+    border-width:0px !important;
+}
+p.form-row.form-row-last button{
+    border-radius:8px !important;
+}
+.woocommerce-info{
+    margin-top:-58px;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .mk-header-holder {
+    position: static;
+}
+.checkout_title {
+    position: absolute;
+    top: -40px;
+}
+.checkout_title h3 {
+    font-weight: normal;
+    font-size: 20px;
+	color: #666;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout table.shop_table.woocommerce-checkout-review-order-table {
+    margin-bottom: 0px !important;
+}
+/* Optional */
+#checkout_cart input#coupon_code {
+  width:auto;
+}
+
+/* Style to overcome jQuery dialog's inline styling on the coupon dialog (Optional) */
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.coupon-special {
+  position: relative;
+  top: 0 !important;
+  left: 0 !important;
+  border: 0;
+}
+
+/* Remove the close coupon field button (Optional) */
+.ui-widget-header {
+  display:none;
+}
+#coupon-anchor .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.coupon-special {
+    width: 100% !important;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout #customer_details {
+    margin-bottom: 20px !important;
+}
+span.show_coupon_div {
+    margin-bottom: 20px;
+    display: block;
+}
+form.checkout_coupon.ui-dialog-content.ui-widget-content button.button{
+	font-size: 10px !important;
+    padding: 12px 8px !important;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce form .form-row .required {
+    color: #000;
+    text-decoration: none;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .mk-css-icon-menu, body.page-template-default.page.page-id-375.woocommerce-checkout .woocommerce-additional-fields h3, body.page-template-default.page.page-id-375.woocommerce-checkout tr.cart-subtotal {
+    display: none;
+}
+body.page-template-default.page.page-id-375.woocommerce-checkout .payment_box.payment_method_mollie_wc_gateway_ideal p:first-child, body.page-template-default.page.page-id-375.woocommerce-checkout ul.wc_payment_methods.payment_methods.methods h3 {
+    display: none;
+}
+span.product_subline_cls {
+    font-size: 13px;
+    font-style: italic;
+    line-height: 0;
+}
+.woocommerce ul#shipping_method li {
+    border: 1px solid #eee;
+    margin: 10px 0;
+    padding: 8px 30px;
+}
+span.gratis {
+    color: orange;
+}
+span.select2-selection.select2-selection--single {
+	border: 1px solid #e3e3e3;
+	border-radius: 0 !important;
+	background-color: #fdfdfd;
+	height: 40px;
+}
+span#select2-billing_country-container {
+    color: #767676;
+    padding: 0 12px;
+    line-height: 40px;
+    font-size: 13px;
+}
+span.shipping_subline_txt {
+    clear: both;
+    display: block;
+    font-size: 11px;
+    font-style: italic;
+    text-indent: -3px;
+    text-align: left;
+	line-height: 15px;
+}
+form.checkout.woocommerce-checkout h3 {
+    font-size: 20px !important;
+}
+.woocommerce ul#shipping_method li label {
+	cursor: pointer;
+}
+li#menu-item-983 a.menu-item-link.js-smooth-scroll {
+    color: #dd2727;
+    line-height: 14px;
+}
+.wpcf7-display-none {
+    display: none !important;
+}
+.page-id-984 input.wpcf7-form-control.wpcf7-submit:hover {
+    background: #252525;
+}
+.page-id-984 input.wpcf7-form-control.wpcf7-submit {
+    background: #dd2727;
+    border: none;
+    color: #fff;
+    margin: 0 0px 3px 10px;
+    height: 40px;
+}
+.wattbike-atom-txt-center {
+    text-align: center;
+}
+@media handheld, only screen and (min-width: 768px) and (max-width: 1024px){
+	.page-id-984 .wpcf7-email {
+		width: 100%;
+	}	
+}
+@media handheld, only screen and (min-width: 1025px){
+		.page-id-984 .wpcf7-email {
+		width: 60%;
+	}	
+	.page-id-984 input.wpcf7-form-control.wpcf7-submit {
+		width: 35%;
+		padding: 0;	
+	}
+}
+#mk-page-introduce{
+    display: none;
+}
+body.page-template-default.page.page-id-1093 input.wpcf7-form-control.wpcf7-submit, body.page-template-default.page.page-id-1270 input.wpcf7-form-control.wpcf7-submit, body.page-template-default.page.page-id-1293 input.wpcf7-form-control.wpcf7-submit, body.page-template-default.page.page-id-1423 input.wpcf7-form-control.wpcf7-submit {
+    background: #333;
+    color: #fff;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.top-navigation-ul {
+display: flow-root;
+}
+ul.uj-top-menu {
+float: right;
+display: -webkit-box;
+padding-right: 20px;
+padding-top: 16px;
+}
+ul.uj-top-menu li {
+list-style-type: none;
+}
+ .a-sticky ul.uj-top-menu li a {
+color: #03363d;
+font-size: 12px;
+}
+ul.uj-top-menu li a {
+color: #fff;
+font-size: 12px;
+}
+ul.uj-top-menu li a:hover {
+color: #da291c;
+}
+ul#menu-wattcycling-menu li {
+line-height: 40px !important;
+}
+.header-style-1.a-sticky .menu-hover-style-5 ul#menu-primary-menu > li, .a-sticky:not(.header-style-4) .mk-header-inner.add-header-height{
+line-height: 30px !important;
+height: 70px !important;
+} 
+
+div#text-block-9 .wattbike-atom-txt-center {
+    text-align: left;
+}
+.custom_secondary_menu_cls {
+    max-height: 100px;
+}
+div#custom_secondary_menu_cls ul {
+    display: flex;
+    border: none;
+	float: right;
+}
+div#custom_secondary_menu_cls ul  li{
+    border: none;
+	margin-top: 15px;
+}
+div#custom_secondary_menu_cls ul li a {
+    font-size: 14px;
+    font-weight: 600;    
+}
+.secondary_menu_logo img {
+    width: 70px !important;
+    margin-top: 10px;
+}
+div#secondary_menu_main_div {box-shadow: 0px 2px 2px #ccc;display: inline-block;width: 100%;}
+div#secondary_menu_main_div.secondary_menu_fixed_div {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+	z-index: 999;
+}
+.logged-in.admin-bar div.secondary_menu_fixed_div {margin-top: 32px;}
+.a-sticky ul#menu-primary-menu {margin-top: 20px;}
+div#secondary_menu_main_div ul li a {    padding: 4px 10px;}
+.secondary_menu_logo h2 {text-transform: capitalize !important;padding-top: 18px !important;font-size: 30px !important;}
+.secondary_menu_logo h2  a{    font-weight: 600;}
+.secondary_menu_logo .vc_column-inner {padding-left: 0 !important;padding-right: 0 !important;}
+.page-template-template-location-page .mk-main-wrapper-holder {display: none;}
+h2#fancy-title-28, h2#fancy-title-33, h2#fancy-title-40, h2#fancy-title-45 {margin-bottom: 0;}
+@media handheld, only screen and (max-width: 767px){
+	h2#fancy-title-28, h2#fancy-title-33, h2#fancy-title-40, h2#fancy-title-45,h2#fancy-title-29, h2#fancy-title-34, h2#fancy-title-41, h2#fancy-title-46 {text-align: left !important;}
+	.train_gericht_cls, .leer_om_cls {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+	}
+
+	.train_gericht_cls .vc_col-sm-4, .leer_om_cls .vc_col-sm-4{
+	-webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+	}
+
+	.train_gericht_cls .vc_col-sm-8, .leer_om_cls .vc_col-sm-8{
+	-webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+	}
+
+}
+
+@media handheld, only screen and (min-width: 769px){
+.menu-item-1186 a {border: 1.5px solid #333 !important;border-radius: 5px;background: #333; color:#fff;}
+.menu-item-1455 a {border: 1.5px solid #db291d !important;border-radius: 5px;margin-left: 6px !important; background: #db291d;color:#fff;}
+.menu-item-1186 a:hover{background: #fff;color: #333 !important;}
+.menu-item-1455 a:hover{background: #fff;color: #db291d !important;}
+.menu-item-1188 a {color: #03363d;font-size: 12px !important;font-weight: normal !important;}
+}

@@ -1,0 +1,17 @@
+2018-02-03T17:54:01+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 985
+2018-02-03T17:54:02+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_vy56zc5Nbt (live) created for order 985
+2018-02-03T17:54:02+00:00 DEBUG For order 985 redirect user to payment URL: https://bankieren.ideal.ing.nl/ideal/betalen/inlog-annuleren/static/detect_mob?trxid=0030002640428154&random=z7e90f85766c1e06
+2018-02-03T17:55:50+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 986
+2018-02-03T17:55:51+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_R5wcbuwB2U (live) created for order 986
+2018-02-03T17:55:51+00:00 DEBUG For order 986 redirect user to payment URL: https://bankieren.ideal.ing.nl/ideal/betalen/inlog-annuleren/static/detect_mob?trxid=0030002640433919&random=z079ea6fd75ae314
+2018-02-03T17:56:41+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_R5wcbuwB2U (live) webhook call for order 986.
+2018-02-03T17:56:41+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 986
+2018-02-03T17:56:44+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 986: http://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/986?key=wc_order_5a75db86611e4&utm_nooverride=1
+2018-02-03T18:04:13+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 987
+2018-02-03T18:04:13+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_fpJKFAtgNe (live) created for order 987
+2018-02-03T18:04:13+00:00 DEBUG For order 987 redirect user to payment URL: https://www.mollie.com/paymentscreen/issuer/select/ideal/fpJKFAtgNe
+2018-02-03T18:04:42+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_fpJKFAtgNe (live) webhook call for order 987.
+2018-02-03T18:04:42+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 987
+2018-02-03T18:04:44+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 987: http://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/987?key=wc_order_5a75dd7d99dce&utm_nooverride=1
+2018-02-03T18:09:49+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_vy56zc5Nbt (live) webhook call for order 985.
+2018-02-03T18:09:49+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookExpired called for order 985

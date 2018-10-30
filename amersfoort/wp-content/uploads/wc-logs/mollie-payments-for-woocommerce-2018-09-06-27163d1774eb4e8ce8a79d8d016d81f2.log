@@ -1,0 +1,5 @@
+2018-09-06T11:44:05+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1538
+2018-09-06T11:44:06+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_mqsP9AN6f3 (live) created for order 1538
+2018-09-06T11:44:06+00:00 DEBUG For order 1538 redirect user to payment URL: https://ideal.knab.nl/?iec=9d75551c748e4fc6ab1cc81963f124ad&trxid=0030003196319215
+2018-09-06T11:59:58+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_mqsP9AN6f3 (live) webhook call for order 1538.
+2018-09-06T11:59:58+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookExpired called for order 1538

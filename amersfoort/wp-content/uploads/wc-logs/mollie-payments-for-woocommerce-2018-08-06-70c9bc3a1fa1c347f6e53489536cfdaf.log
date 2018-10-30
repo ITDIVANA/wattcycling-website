@@ -1,0 +1,5 @@
+2018-08-06T13:14:43+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1448
+2018-08-06T13:14:44+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_hthChgE7Kh (live) created for order 1448
+2018-08-06T13:14:44+00:00 DEBUG For order 1448 redirect user to payment URL: https://betalen.rabobank.nl/ideal-betaling/landingpage?random=a9d1cf1d45dcff29492d2980df5e9f9e4cbed6f7e8751df595829e4acdd28e41&trxid=0030003113400694
+2018-08-06T13:30:53+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_hthChgE7Kh (live) webhook call for order 1448.
+2018-08-06T13:30:53+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookExpired called for order 1448

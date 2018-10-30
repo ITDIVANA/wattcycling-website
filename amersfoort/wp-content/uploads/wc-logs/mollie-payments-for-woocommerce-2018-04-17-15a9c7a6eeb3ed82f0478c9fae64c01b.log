@@ -1,0 +1,5 @@
+2018-04-17T13:36:52+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1272
+2018-04-17T13:36:53+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_VzKV6M2P9C (live) created for order 1272
+2018-04-17T13:36:53+00:00 DEBUG For order 1272 redirect user to payment URL: https://www.abnamro.nl/nl/ideal-betalen/index.html?randomizedstring=6098072106&trxid=0030002810181685
+2018-04-17T13:52:58+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_VzKV6M2P9C (live) webhook call for order 1272.
+2018-04-17T13:52:58+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookExpired called for order 1272

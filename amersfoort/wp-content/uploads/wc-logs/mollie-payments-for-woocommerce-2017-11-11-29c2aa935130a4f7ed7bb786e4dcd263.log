@@ -1,0 +1,7 @@
+2017-11-11T13:58:03+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 687
+2017-11-11T13:58:03+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_yw6zenhhh6 (live) created for order 687
+2017-11-11T13:58:03+00:00 DEBUG For order 687 redirect user to payment URL: https://www.mollie.com/paymentscreen/issuer/select/ideal/yw6zenhhh6
+2017-11-11T13:58:33+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_yw6zenhhh6 (live) webhook call for order 687.
+2017-11-11T13:58:33+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 687
+2017-11-11T13:58:33+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 687: http://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/687?key=wc_order_5a06e5cb4b4c6&utm_nooverride=1
+2017-11-11T13:58:35+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 687: http://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/687?key=wc_order_5a06e5cb4b4c6&utm_nooverride=1

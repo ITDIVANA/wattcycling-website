@@ -1,0 +1,22 @@
+2018-04-25T13:02:11+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2018-04-25T13:04:13+00:00 DEBUG getUserMollieCustomerId: Mollie Customer ID cst_jjMQrgKkEr not valid for this API key, try to create a new one (test).
+2018-04-25T13:04:13+00:00 DEBUG getUserMollieCustomerId: Created a Mollie Customer for WordPress user with ID 1 (test).
+2018-04-25T13:04:13+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1309
+2018-04-25T13:04:13+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_PrhgVJ4Rv8 (test) created for order 1309
+2018-04-25T13:04:13+00:00 DEBUG For order 1309 redirect user to payment URL: https://www.mollie.com/paymentscreen/testmode/?method=ideal&token=qmz6h5
+2018-04-25T13:04:34+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1309
+2018-04-25T13:04:34+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_quSV5zqnnM (test) created for order 1309
+2018-04-25T13:04:34+00:00 DEBUG For order 1309 redirect user to payment URL: https://www.mollie.com/paymentscreen/testmode/?method=ideal&token=d8orhl
+2018-04-25T13:04:47+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_quSV5zqnnM (test) webhook call for order 1309.
+2018-04-25T13:04:47+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1309
+2018-04-25T13:04:49+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1309: https://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/1309/?key=wc_order_5ae060ad16d4f&utm_nooverride=1
+2018-04-25T13:06:54+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1310
+2018-04-25T13:06:55+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_jcV7qUrruK (test) created for order 1310
+2018-04-25T13:06:55+00:00 DEBUG For order 1310 redirect user to payment URL: https://www.mollie.com/paymentscreen/testmode/?method=ideal&token=4fxrfz
+2018-04-25T13:07:20+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_jcV7qUrruK (test) webhook call for order 1310.
+2018-04-25T13:07:20+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1310
+2018-04-25T13:07:23+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1310: https://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/1310/?key=wc_order_5ae0614e8906e&utm_nooverride=1
+2018-04-25T13:10:44+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2018-04-25T13:20:05+00:00 DEBUG getPayment: Could not load payment tr_PrhgVJ4Rv8 (test): Error executing API call (request): The payment id is invalid. (Mollie_API_Exception)
+2018-04-25T13:20:05+00:00 DEBUG Mollie_WC_Gateway_Abstract::webhookAction: payment tr_PrhgVJ4Rv8 not found.
+2018-04-25T13:21:08+00:00 DEBUG mollie_wc_gateway_ideal: Order 1309 does not need a payment (payment webhook tr_PrhgVJ4Rv8).

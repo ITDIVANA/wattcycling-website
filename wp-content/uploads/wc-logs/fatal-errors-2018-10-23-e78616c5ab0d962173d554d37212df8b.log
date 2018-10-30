@@ -1,0 +1,28 @@
+2018-10-23T12:50:19+00:00 CRITICAL Uncaught Error: Call to a member function trigger() on null in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter-child/functions.php:317
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): wdm_send_order_to_ext(1519)
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/templates/checkout/thankyou.php(79): do_action('woocommerce_tha...', 1519)
+#4 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(213): wc_get_template('checkout/thanky...', Array)
+#6 /home/myperf65/public_html/wattcycling.nl/wp-content/p
+
+2018-10-23T12:54:15+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_billing_full_name() on null in /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/templates/emails/admin-new-order.php:28
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/wc-core-functions.php(230): wc_get_template('emails/admin-ne...', Array, '', '')
+#2 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/emails/class-wc-email-new-order.php(115): wc_get_template_html('emails/admin-ne...', Array)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(504): WC_Email_New_Order->get_content_html()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/emails/class-wc-email-new-order.php(96): WC_Email->get_content()
+#5 /home/myperf65/public_html/wattcycli
+
+2018-10-23T12:56:13+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_billing_full_name() on null in /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/templates/emails/admin-new-order.php:28
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/wc-core-functions.php(230): wc_get_template('emails/admin-ne...', Array, '', '')
+#2 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/emails/class-wc-email-new-order.php(115): wc_get_template_html('emails/admin-ne...', Array)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(504): WC_Email_New_Order->get_content_html()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/emails/class-wc-email-new-order.php(96): WC_Email->get_content()
+#5 /home/myperf65/public_html/wattcycli
+

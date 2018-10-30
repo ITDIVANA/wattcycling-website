@@ -1,0 +1,12 @@
+2017-09-03T12:51:28+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 539
+2017-09-03T12:51:29+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_GbywWPxtxc (live) created for order 539
+2017-09-03T12:51:29+00:00 DEBUG Redirect user to payment URL: https://bankieren.ideal.ing.nl/ideal/betalen/inlog-annuleren/static/detect_mob?trxid=0030002305443223&random=z8ee667e9ad3de33
+2017-09-03T12:52:02+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_GbywWPxtxc (live) webhook call for order 539.
+2017-09-03T12:52:02+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called.
+2017-09-03T12:52:04+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 539: http://wattcycling.nl/amsterdam-amstel/index.php/afrekenen/bestelling-ontvangen/539?key=wc_order_59abdeb0618fe&utm_nooverride=1
+2017-09-03T14:28:57+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 540
+2017-09-03T14:28:58+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_HCaxrjKHP9 (live) created for order 540
+2017-09-03T14:28:58+00:00 DEBUG Redirect user to payment URL: https://betalen.rabobank.nl/ideal-betaling/landingpage?random=103221d0a99cf293b34d6acdca479d852b2177f4eab7eec4dc51cb2dc9c84212&trxid=0030002305601647
+2017-09-03T14:29:31+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_HCaxrjKHP9 (live) webhook call for order 540.
+2017-09-03T14:29:31+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called.
+2017-09-03T14:29:32+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 540: http://wattcycling.nl/amsterdam-amstel/index.php/afrekenen/bestelling-ontvangen/540?key=wc_order_59abf58944ca1&utm_nooverride=1

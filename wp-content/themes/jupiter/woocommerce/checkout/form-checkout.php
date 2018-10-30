@@ -93,7 +93,7 @@ foreach ( $cart_items as $key => $item ){
 
 	<div id="order_review" class="woocommerce-checkout-review-order">
 		<?php do_action( 'woocommerce_checkout_order_review' ); ?>
-		<span class="order_review_btm_txt">Persoonlijke gegevens worden niet anders gebruikt dan voor Wattbike Benelux</span>
+		<span class="order_review_btm_txt">Persoonlijke gegevens worden niet anders gebruikt dan voor WattCycling</span>
 	</div>
 
 	<?php do_action( 'woocommerce_checkout_after_order_review' ); ?>

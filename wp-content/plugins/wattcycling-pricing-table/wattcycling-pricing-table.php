@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: WattCycling Pricing Table
+Plugin Name: Wattbike Pricing Table
 Plugin URI: http://www.indiasan.com
-Description: WattCycling Pricing Table
+Description: Wattbike Pricing Table
 Version: 1.0.0
 Author: IndiaSan
 Author URI: http://www.indiasan.com

@@ -1,0 +1,12 @@
+2018-10-22T18:11:29+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1795
+2018-10-22T18:11:29+00:00 DEBUG mollie_wc_gateway_ideal: Order 1795 webhookUrl: https://wattcycling.nl/amersfoort/wc-api/mollie_wc_gateway_ideal/?order_id=1795&key=wc_order_5bcdf6b156c79
+2018-10-22T18:11:29+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1795
+2018-10-22T18:11:30+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_QH4BnCMWCE (live) created for order 1795
+2018-10-22T18:11:30+00:00 DEBUG For order 1795 redirect user to Mollie Checkout URL: https://diensten.snsbank.nl/online/ideal/sign?sp=A9C3D35D146256BCA749E934DB9513A55497BC7A000107839100&trxid=0030003331591809
+2018-10-22T18:12:44+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_QH4BnCMWCE (live) webhook call for order 1795.
+2018-10-22T18:12:44+00:00 DEBUG mollie_wc_gateway_ideal: Order 1795 orderNeedsPayment check: yes, not processed by Mollie gateway.
+2018-10-22T18:12:44+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1795
+2018-10-22T18:12:45+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid WooCommerce payment_complete() processed and returned to onWebHookPaid for order 1795
+2018-10-22T18:12:45+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid processing paid order via Mollie plugin fully completed for order 1795
+2018-10-22T18:12:45+00:00 DEBUG Mollie_WC_Gateway_Abstract::getReturnRedirectUrlForOrder 1795: Determine what the redirect URL in WooCommerce should be.
+2018-10-22T18:12:45+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1795: https://wattcycling.nl/amersfoort/afrekenen/bestelling-ontvangen/1795/?key=wc_order_5bcdf6b156c79&utm_nooverride=1

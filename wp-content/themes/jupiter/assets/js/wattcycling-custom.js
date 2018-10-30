@@ -46,10 +46,14 @@ jQuery(document).ready(function () {
 						lastScrollTop = scrollTop; */
 				//});
 			} else {
+				if(jQuery("#form_outer_div_href").length > 0) {
 				 var divHeight = jQuery("#form_outer_div_href").offset().top;
+				}
 				scrollTop = jQuery(window).scrollTop();
 				jQuery(window).on("scroll", function() {
-					var divHeight = jQuery("#form_outer_div_href").offset().top;
+					if(jQuery("#form_outer_div_href").length > 0) {
+						var divHeight = jQuery("#form_outer_div_href").offset().top;
+					}
 					var scrollPosition = jQuery(window).height() + jQuery(window).scrollTop();
 					if(scrollPosition>divHeight && windowWidth<=768){
 						jQuery('#voor_alpe_dhuzes').attr("style", "display: none !important");
@@ -169,29 +173,37 @@ jQuery(document).ready(function () {
 			
 			//console.log(windowWidth);
 			if(windowWidth>768){
-				jQuery(".page.page-id-1128 #mk-header-1, .page.page-id-1236 #mk-header-1").removeClass('sticky-style-fixed');
-				jQuery(".page.page-id-1128 #mk-header-1, .page.page-id-1236 #mk-header-1").removeClass('a-sticky');
-				var scrollTop = jQuery(document).scrollTop();
-				 if (scrollTop  > 400){
-						jQuery("#secondary_menu_main_div").addClass('secondary_menu_fixed_div');
-						jQuery(".page.page-id-1128 .mk-header-holder, .page.page-id-1236 .mk-header-holder").addClass('main_menu_postion_cls');
-				 } else{
-						jQuery("#secondary_menu_main_div").removeClass('secondary_menu_fixed_div');
-						jQuery(".page.page-id-1128 .mk-header-holder, .page.page-id-1236 .mk-header-holder").removeClass('main_menu_postion_cls');								 
-				 }
+				jQuery("#secondary_menu_main_div").show();
+				jQuery(".page-template-template-location-page #mk-header-1").removeClass('sticky-style-fixed');
+				jQuery(".page-template-template-location-page #mk-header-1").removeClass('a-sticky');
+				if(jQuery(".page-template-template-location-page").length > 0) {
+					var pathname = window.location.pathname;
+					console.log("pathname : ",pathname);				
+					var domain = pathname.split('/');
+					var locationId = domain[domain.length - 2];
+					console.log("domain: ",domain);
+					console.log("last: ",locationId);
+					if(locationId !=''){
+						jQuery('.mk-header-padding-wrapper').removeClass('.mk-header-padding-wrapper');
+						jQuery('.page-template-template-location-page .wpb_row.vc_row.vc_row-fluid.mk-fullwidth-true').attr("id",locationId).attr('id');
+						location.href = "#"+locationId;				
+					}
+				}
+
 				jQuery(window).on("scroll", function() {
 					var scrollTop = jQuery(document).scrollTop();
-					jQuery(".page.page-id-1128 #mk-header-1, .page.page-id-1236 #mk-header-1").removeClass('a-sticky');
-							 if (scrollTop  > 400){
+					jQuery(".page-template-template-location-page #mk-header-1").removeClass('a-sticky');
+							 if (scrollTop  > 420){
 									jQuery("#secondary_menu_main_div").addClass('secondary_menu_fixed_div');
-									jQuery(".page.page-id-1128 .mk-header-holder, .page.page-id-1236 .mk-header-holder").addClass('main_menu_postion_cls');
+									jQuery(".page-template-template-location-page .mk-header-holder").addClass('main_menu_postion_cls');
 							 } else{
 									jQuery("#secondary_menu_main_div").removeClass('secondary_menu_fixed_div');
-									jQuery(".page.page-id-1128 .mk-header-holder, .page.page-id-1236 .mk-header-holder").removeClass('main_menu_postion_cls');								 
+									jQuery(".page-template-template-location-page.mk-header-holder").removeClass('main_menu_postion_cls'); 
 							 }
-
-			});
-			}
+				});
+			} else{
+						jQuery("#secondary_menu_main_div").hide();
+					}
 			}).resize();
 });
 

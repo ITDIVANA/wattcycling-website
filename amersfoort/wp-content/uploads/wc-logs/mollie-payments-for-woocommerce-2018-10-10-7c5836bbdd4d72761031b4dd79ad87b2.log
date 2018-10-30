@@ -1,0 +1,17 @@
+2018-10-10T17:53:57+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1748
+2018-10-10T17:53:57+00:00 DEBUG mollie_wc_gateway_ideal: Order 1748 webhookUrl: https://wattcycling.nl/amersfoort/wc-api/mollie_wc_gateway_ideal/?order_id=1748&key=wc_order_5bbe209506590
+2018-10-10T17:53:57+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1748
+2018-10-10T17:53:57+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_Fh5kdtDy96 (live) created for order 1748
+2018-10-10T17:53:57+00:00 DEBUG For order 1748 redirect user to Mollie Checkout URL: https://bankieren.ideal.ing.nl/ideal/betalen/inlog-annuleren/static/detect_mob?trxid=0030003297877570&random=zc0f55028e504e64
+2018-10-10T17:54:30+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_Fh5kdtDy96 (live) webhook call for order 1748.
+2018-10-10T17:54:30+00:00 DEBUG mollie_wc_gateway_ideal: Order 1748 orderNeedsPayment check: yes, not processed by Mollie gateway.
+2018-10-10T17:54:30+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1748
+2018-10-10T17:54:31+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid WooCommerce payment_complete() processed and returned to onWebHookPaid for order 1748
+2018-10-10T17:54:31+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid processing paid order via Mollie plugin fully completed for order 1748
+2018-10-10T17:54:32+00:00 DEBUG Mollie_WC_Gateway_Abstract::getReturnRedirectUrlForOrder 1748: Determine what the redirect URL in WooCommerce should be.
+2018-10-10T17:54:32+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1748: https://wattcycling.nl/amersfoort/afrekenen/bestelling-ontvangen/1748/?key=wc_order_5bbe209506590&utm_nooverride=1
+2018-10-11T01:57:43+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1749
+2018-10-11T01:57:43+00:00 DEBUG mollie_wc_gateway_ideal: Order 1749 webhookUrl: https://wattcycling.nl/amersfoort/wc-api/mollie_wc_gateway_ideal/?order_id=1749&key=wc_order_5bbe91f70a55f
+2018-10-11T01:57:43+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1749
+2018-10-11T01:57:43+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_GS7y6jBQaR (live) created for order 1749
+2018-10-11T01:57:43+00:00 DEBUG For order 1749 redirect user to Mollie Checkout URL: https://www.mollie.com/paymentscreen/issuer/select/ideal/GS7y6jBQaR

@@ -1,0 +1,68 @@
+2018-01-09T18:30:03+00:00 CRITICAL Uncaught Error: Call to undefined function flatsome_option() in /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/themes/jupiter/woocommerce/checkout/form-checkout.php:48
+Stack trace:
+#0 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(242): wc_get_template('checkout/form-c...', Array)
+#2 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(68): WC_Shortcode_Checkout::checkout()
+#3 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(76): WC_Shortcode_Checkout::output('')
+#4 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(99): WC_Shortco
+
+2018-01-09T18:30:09+00:00 CRITICAL Uncaught Error: Call to undefined function flatsome_option() in /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/themes/jupiter/woocommerce/checkout/form-checkout.php:48
+Stack trace:
+#0 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(242): wc_get_template('checkout/form-c...', Array)
+#2 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(68): WC_Shortcode_Checkout::checkout()
+#3 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(76): WC_Shortcode_Checkout::output('')
+#4 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(99): WC_Shortco
+
+2018-01-09T18:30:47+00:00 CRITICAL Uncaught Error: Call to undefined function flatsome_option() in /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/themes/jupiter/woocommerce/checkout/form-checkout.php:48
+Stack trace:
+#0 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(242): wc_get_template('checkout/form-c...', Array)
+#2 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(68): WC_Shortcode_Checkout::checkout()
+#3 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(76): WC_Shortcode_Checkout::output('')
+#4 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(99): WC_Shortco
+
+2018-04-04T07:48:54+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/wp-updates-notifier/wp-updates-notifier.php:472
+Stack trace:
+#0 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-includes/class-wp-hook.php(300): sc_WPUpdatesNotifier->filter_auto_core_update_email(Array)
+#1 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-admin/includes/class-wp-automatic-updater.php(767): apply_filters('auto_core_updat...', Array, 'success', Object(stdClass), NULL)
+#3 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-admin/includes/class-wp-automatic-updater.php(501): WP_Automatic_Updater->send_email('success', Object(stdClass))
+#4 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-admin/includes/class-wp-automatic-updater.php(470): WP_Automatic_Updater->after_core_update(Object(stdClass))
+
+
+2018-04-11T14:28:37+00:00 CRITICAL Uncaught Error: Call to a member function get_payment_method() on boolean in /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/mollie-payments-for-woocommerce/includes/mollie/wc/gateway/abstract.php:1295
+Stack trace:
+#0 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-includes/class-wp-hook.php(298): Mollie_WC_Gateway_Abstract->onOrderReceivedTitle('Fiets jezelf fi...', 445)
+#1 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-includes/plugin.php(203): WP_Hook->apply_filters('Fiets jezelf fi...', Array)
+#2 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-includes/post-template.php(158): apply_filters('the_title', 'Fiets jezelf fi...', 445)
+#3 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/themes/jupiter/views/layout/title.php(48): get_the_title(Object(WP_Post))
+#4 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/themes/jupiter/framework/helpers/template-part-helpers.php(137): include('/Library/WebSer...')
+#
+
+2018-04-11T14:28:59+00:00 CRITICAL Uncaught Error: Call to a member function get_payment_method() on boolean in /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/mollie-payments-for-woocommerce/includes/mollie/wc/gateway/abstract.php:1295
+Stack trace:
+#0 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-includes/class-wp-hook.php(298): Mollie_WC_Gateway_Abstract->onOrderReceivedTitle('Fiets jezelf fi...', 445)
+#1 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-includes/plugin.php(203): WP_Hook->apply_filters('Fiets jezelf fi...', Array)
+#2 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-includes/post-template.php(158): apply_filters('the_title', 'Fiets jezelf fi...', 445)
+#3 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/themes/jupiter/views/layout/title.php(48): get_the_title(Object(WP_Post))
+#4 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/themes/jupiter/framework/helpers/template-part-helpers.php(137): include('/Library/WebSer...')
+#
+
+2018-04-13T20:55:52+00:00 CRITICAL Uncaught Error: Call to a member function get_icon() on null in /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/themes/jupiter-child/woocommerce/checkout/form-checkout.php:69
+Stack trace:
+#0 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/wc-core-functions.php(211): include()
+#1 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(242): wc_get_template('checkout/form-c...', Array)
+#2 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(68): WC_Shortcode_Checkout::checkout()
+#3 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(76): WC_Shortcode_Checkout::output('')
+#4 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(99): WC_S
+
+2018-07-05T19:37:05+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-content/plugins/wp-updates-notifier/wp-updates-notifier.php:472
+Stack trace:
+#0 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-includes/class-wp-hook.php(300): sc_WPUpdatesNotifier->filter_auto_core_update_email(Array)
+#1 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-admin/includes/class-wp-automatic-updater.php(767): apply_filters('auto_core_updat...', Array, 'success', Object(stdClass), NULL)
+#3 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-admin/includes/class-wp-automatic-updater.php(501): WP_Automatic_Updater->send_email('success', Object(stdClass))
+#4 /Library/WebServer/Documents/wattcycling/amsterdam-amstel/wp-admin/includes/class-wp-automatic-updater.php(470): WP_Automatic_Updater->after_core_update(Object(stdClass))
+
+

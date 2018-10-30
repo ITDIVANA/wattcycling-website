@@ -1,0 +1,10 @@
+============= DEBUG - Survey Manager - Error in response =============
+
+Time        : 2017-08-17 14:39:29
+Log Level   : DEBUG
+Subject     : Survey Manager - Error in response
+Tags        : 
+Env info    : 
+Message     : cURL error 28: Operation timed out after 10149 milliseconds with 0 out of 0 bytes received
+
+

@@ -1,0 +1,5 @@
+2018-04-21T16:57:02+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1305
+2018-04-21T16:57:02+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_K53n7BMzm9 (live) created for order 1305
+2018-04-21T16:57:02+00:00 DEBUG For order 1305 redirect user to payment URL: https://www.mollie.com/paymentscreen/issuer/select/ideal/K53n7BMzm9
+2018-04-21T17:13:10+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_K53n7BMzm9 (live) webhook call for order 1305.
+2018-04-21T17:13:10+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookExpired called for order 1305

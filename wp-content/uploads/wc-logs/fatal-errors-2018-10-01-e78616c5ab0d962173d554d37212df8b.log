@@ -1,0 +1,147 @@
+2018-10-01T12:17:57+00:00 CRITICAL Uncaught Error: Call to undefined function mk_get_body_class() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/header.php:18
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(688): require_once()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(647): load_template('/home/myperf65/...', true)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/page.php(8): get_header()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/template-loader.php(74): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-blog-header.php(19): require_once('/home/myperf65/...')
+#6 /home/myperf65/public_html/wattcycling.nl/index.php(17): require('/home/myperf65/...')
+#7 {main}
+  thrown
+
+2018-10-01T14:57:16+00:00 CRITICAL Uncaught Error: Call to undefined function mk_get_body_class() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/header.php:18
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(688): require_once()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(647): load_template('/home/myperf65/...', true)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/template-location.page.php(13): get_header()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/template-loader.php(74): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-blog-header.php(19): require_once('/home/myperf65/...')
+#6 /home/myperf65/public_html/wattcycling.nl/index.php(17): require('/home/myperf65/...')
+#7 {main}
+  thrown
+
+2018-10-01T15:41:00+00:00 CRITICAL Uncaught Error: Call to undefined function mk_get_body_class() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/header.php:18
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(688): require_once()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(647): load_template('/home/myperf65/...', true)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/404.php(8): get_header()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/template-loader.php(74): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-blog-header.php(19): require_once('/home/myperf65/...')
+#6 /home/myperf65/public_html/wattcycling.nl/index.php(17): require('/home/myperf65/...')
+#7 {main}
+  thrown
+
+2018-10-01T15:41:01+00:00 CRITICAL Uncaught Error: Call to undefined function mk_get_body_class() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/header.php:18
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(688): require_once()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(647): load_template('/home/myperf65/...', true)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/404.php(8): get_header()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/template-loader.php(74): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-blog-header.php(19): require_once('/home/myperf65/...')
+#6 /home/myperf65/public_html/wattcycling.nl/index.php(17): require('/home/myperf65/...')
+#7 {main}
+  thrown
+
+2018-10-01T15:41:01+00:00 CRITICAL Uncaught Error: Call to undefined function mk_get_body_class() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/header.php:18
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(688): require_once()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(647): load_template('/home/myperf65/...', true)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/404.php(8): get_header()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/template-loader.php(74): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-blog-header.php(19): require_once('/home/myperf65/...')
+#6 /home/myperf65/public_html/wattcycling.nl/index.php(17): require('/home/myperf65/...')
+#7 {main}
+  thrown
+
+2018-10-01T15:41:02+00:00 CRITICAL Uncaught Error: Call to undefined function mk_get_body_class() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/header.php:18
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(688): require_once()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(647): load_template('/home/myperf65/...', true)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/404.php(8): get_header()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/template-loader.php(74): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-blog-header.php(19): require_once('/home/myperf65/...')
+#6 /home/myperf65/public_html/wattcycling.nl/index.php(17): require('/home/myperf65/...')
+#7 {main}
+  thrown
+
+2018-10-01T16:22:07+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on null in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/functions.php:883
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): your_email_recipient_filter_function('ujwl25@gmail.co...', NULL)
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/plugin.php(203): WP_Hook->apply_filters('ujwl25@gmail.co...', Array)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(372): apply_filters('woocommerce_ema...', 'ujwl25@gmail.co...', NULL)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-emails.php(291): WC_Email->get_recipient()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): WC_Settings_Emails->email_notification_setting(Array)
+#5 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(
+
+2018-10-01T16:25:55+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/functions.php:879
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): your_email_recipient_filter_function('ujwl25@gmail.co...', NULL)
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/plugin.php(203): WP_Hook->apply_filters('ujwl25@gmail.co...', Array)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(372): apply_filters('woocommerce_ema...', 'ujwl25@gmail.co...', NULL)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-emails.php(291): WC_Email->get_recipient()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): WC_Settings_Emails->email_notification_setting(Array)
+#5 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Arr
+
+2018-10-01T16:28:04+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on null in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/functions.php:889
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): your_email_recipient_filter_function('ujwl25@gmail.co...', Object(WC_Order))
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/plugin.php(203): WP_Hook->apply_filters('ujwl25@gmail.co...', Array)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(372): apply_filters('woocommerce_ema...', 'ujwl25@gmail.co...', Object(WC_Order))
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/emails/class-wc-email-new-order.php(95): WC_Email->get_recipient()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): WC_Email_New_Order->trigger(1399, Object(WC_Order))
+#5 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(310): WP_Hook->a
+
+2018-10-01T16:42:08+00:00 CRITICAL Uncaught Error: Call to undefined function mk_get_body_class() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/header.php:18
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(688): require_once()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(647): load_template('/home/myperf65/...', true)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/404.php(8): get_header()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/template-loader.php(74): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-blog-header.php(19): require_once('/home/myperf65/...')
+#6 /home/myperf65/public_html/wattcycling.nl/index.php(17): require('/home/myperf65/...')
+#7 {main}
+  thrown
+
+2018-10-01T16:42:08+00:00 CRITICAL Uncaught Error: Call to undefined function mk_get_body_class() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/header.php:18
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(688): require_once()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(647): load_template('/home/myperf65/...', true)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/404.php(8): get_header()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/template-loader.php(74): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-blog-header.php(19): require_once('/home/myperf65/...')
+#6 /home/myperf65/public_html/wattcycling.nl/index.php(17): require('/home/myperf65/...')
+#7 {main}
+  thrown
+
+2018-10-01T16:42:08+00:00 CRITICAL Uncaught Error: Call to undefined function mk_get_body_class() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/header.php:18
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(688): require_once()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(647): load_template('/home/myperf65/...', true)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/404.php(8): get_header()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/template-loader.php(74): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-blog-header.php(19): require_once('/home/myperf65/...')
+#6 /home/myperf65/public_html/wattcycling.nl/index.php(17): require('/home/myperf65/...')
+#7 {main}
+  thrown
+
+2018-10-01T16:42:09+00:00 CRITICAL Uncaught Error: Call to undefined function mk_get_body_class() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/header.php:18
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(688): require_once()
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/template.php(647): load_template('/home/myperf65/...', true)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/404.php(8): get_header()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-includes/template-loader.php(74): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-blog-header.php(19): require_once('/home/myperf65/...')
+#6 /home/myperf65/public_html/wattcycling.nl/index.php(17): require('/home/myperf65/...')
+#7 {main}
+  thrown
+

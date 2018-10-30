@@ -1,0 +1,50 @@
+2018-10-03T07:56:13+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_checkbox_input() in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/functions.php:795
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): bbloomer_add_custom_field_to_variations(0, Array, Object(WP_Post))
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-variation-admin.php(440): do_action('woocommerce_pro...', 0, Array, Object(WP_Post))
+#4 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(1908): include('/home/myperf65/...')
+#5 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): WC_AJAX::load_variations('')
+#6 /home/myperf65/public_html/wattcy
+
+2018-10-03T15:49:47+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Email_New_Order as array in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/functions.php:965
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): add_expedited_order_woocommerce_email(Array)
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(217): apply_filters('woocommerce_ema...', Array)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(174): WC_Emails->init()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(50): WC_Emails->__construct()
+#5 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-woocommerce.php(685): WC_Emails::instance()
+#6 /home/myperf65/public_html/wattcycling.nl/wp-content/plugin
+
+2018-10-03T15:50:19+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Email_New_Order as array in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/functions.php:965
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): add_expedited_order_woocommerce_email(Array)
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(217): apply_filters('woocommerce_ema...', Array)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(174): WC_Emails->init()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(50): WC_Emails->__construct()
+#5 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-woocommerce.php(685): WC_Emails::instance()
+#6 /home/myperf65/public_html/wattcycling.nl/wp-content/plugin
+
+2018-10-03T15:50:44+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Email_New_Order as array in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/functions.php:965
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): add_expedited_order_woocommerce_email(Array)
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(217): apply_filters('woocommerce_ema...', Array)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(174): WC_Emails->init()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(50): WC_Emails->__construct()
+#5 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-woocommerce.php(685): WC_Emails::instance()
+#6 /home/myperf65/public_html/wattcycling.nl/wp-content/plugin
+
+2018-10-03T15:52:05+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Email_New_Order as array in /home/myperf65/public_html/wattcycling.nl/wp-content/themes/jupiter/functions.php:965
+Stack trace:
+#0 /home/myperf65/public_html/wattcycling.nl/wp-includes/class-wp-hook.php(286): add_expedited_order_woocommerce_email(Array)
+#1 /home/myperf65/public_html/wattcycling.nl/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(217): apply_filters('woocommerce_ema...', Array)
+#3 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(174): WC_Emails->init()
+#4 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-wc-emails.php(50): WC_Emails->__construct()
+#5 /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/woocommerce/includes/class-woocommerce.php(685): WC_Emails::instance()
+#6 /home/myperf65/public_html/wattcycling.nl/wp-content/plugin
+

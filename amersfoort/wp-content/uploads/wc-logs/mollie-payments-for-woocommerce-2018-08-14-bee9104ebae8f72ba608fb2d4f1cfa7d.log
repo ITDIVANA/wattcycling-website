@@ -1,0 +1,6 @@
+2018-08-14T18:12:25+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1456
+2018-08-14T18:12:26+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_WS39tPfv6r (live) created for order 1456
+2018-08-14T18:12:26+00:00 DEBUG For order 1456 redirect user to payment URL: https://www.abnamro.nl/nl/ideal-betalen/index.html?randomizedstring=4247126808&trxid=0030003133377216
+2018-08-14T18:13:14+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_WS39tPfv6r (live) webhook call for order 1456.
+2018-08-14T18:13:14+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1456
+2018-08-14T18:13:15+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1456: https://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/1456/?key=wc_order_5b72ff696b5d8&utm_nooverride=1

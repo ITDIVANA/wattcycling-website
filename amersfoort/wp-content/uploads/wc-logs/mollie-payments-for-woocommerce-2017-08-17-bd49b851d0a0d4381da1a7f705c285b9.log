@@ -1,0 +1,34 @@
+2017-08-17T15:19:29+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:19:36+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:20:03+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:22:49+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:22:54+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:23:00+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:23:04+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:23:09+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:23:14+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:23:19+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:23:24+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:23:28+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:23:34+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:23:48+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T15:24:07+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T16:33:18+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 450
+2017-08-17T16:33:18+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_bF5gqySMUQ (test) created for order 450
+2017-08-17T16:33:18+00:00 DEBUG Redirect user to payment URL: https://www.mollie.com/paymentscreen/ideal/testmode?transaction_id=7384d4b6bf23a74fce30875d16f5ece7&bank_trxid=0000000003232764
+2017-08-17T16:33:21+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_bF5gqySMUQ (test) webhook call for order 450.
+2017-08-17T16:33:21+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called.
+2017-08-17T16:33:22+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 450: http://wattcycling.nl/amstel/index.php/afrekenen/bestelling-ontvangen/450?key=wc_order_5995a92df3838&utm_nooverride=1
+2017-08-17T16:49:35+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 457
+2017-08-17T16:49:35+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_8JDnsPaMfT (test) created for order 457
+2017-08-17T16:49:35+00:00 DEBUG Redirect user to payment URL: https://www.mollie.com/paymentscreen/ideal/testmode?transaction_id=ac38076d3d8b7857f6b5cfb845260f8e&bank_trxid=0000000003232764
+2017-08-17T16:49:44+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 457
+2017-08-17T16:49:44+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_UEHkTUhhPU (test) created for order 457
+2017-08-17T16:49:44+00:00 DEBUG Redirect user to payment URL: https://www.mollie.com/paymentscreen/issuer/select/ideal/UEHkTUhhPU
+2017-08-17T16:49:49+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_UEHkTUhhPU (test) webhook call for order 457.
+2017-08-17T16:49:49+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called.
+2017-08-17T16:49:50+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 457: http://wattcycling.nl/amstel/index.php/afrekenen/bestelling-ontvangen/457?key=wc_order_5995acff5af7f&utm_nooverride=1
+2017-08-17T16:54:55+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-08-17T17:07:35+00:00 DEBUG getPayment: Could not load payment tr_8JDnsPaMfT (test): Error executing API call (request): The payment id is invalid. (Mollie_API_Exception)
+2017-08-17T17:07:35+00:00 DEBUG Mollie_WC_Gateway_Abstract::webhookAction: payment tr_8JDnsPaMfT not found.
+2017-08-17T17:08:38+00:00 DEBUG mollie_wc_gateway_ideal: Order 457 does not need a payment (payment webhook tr_8JDnsPaMfT).

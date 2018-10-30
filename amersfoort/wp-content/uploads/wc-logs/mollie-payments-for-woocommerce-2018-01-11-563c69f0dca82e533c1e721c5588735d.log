@@ -1,0 +1,21 @@
+2018-01-11T14:51:16+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2018-01-11T14:59:50+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2018-01-11T15:27:13+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 878
+2018-01-11T15:27:14+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_Ej4PQhcbe5 (live) created for order 878
+2018-01-11T15:27:14+00:00 DEBUG For order 878 redirect user to payment URL: https://bankieren.ideal.ing.nl/ideal/betalen/inlog-annuleren/static/detect_mob?trxid=0030002584957818&random=z62e6f5fa9a66d9a
+2018-01-11T15:43:01+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_Ej4PQhcbe5 (live) webhook call for order 878.
+2018-01-11T15:43:01+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookExpired called for order 878
+2018-01-11T15:49:45+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2018-01-11T16:42:31+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 902
+2018-01-11T16:42:31+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_qsA4Bxc3da (live) created for order 902
+2018-01-11T16:42:31+00:00 DEBUG For order 902 redirect user to payment URL: https://www.mollie.com/paymentscreen/issuer/select/ideal/qsA4Bxc3da
+2018-01-11T16:58:28+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_qsA4Bxc3da (live) webhook call for order 902.
+2018-01-11T16:58:28+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookExpired called for order 902
+2018-01-11T19:12:28+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2018-01-11T19:13:01+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 917
+2018-01-11T19:13:01+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_Jte5Bb9Gw8 (test) created for order 917
+2018-01-11T19:13:01+00:00 DEBUG For order 917 redirect user to payment URL: https://www.mollie.com/paymentscreen/testmode/?method=ideal&token=1zgr87
+2018-01-11T19:13:09+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_Jte5Bb9Gw8 (test) webhook call for order 917.
+2018-01-11T19:13:09+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 917
+2018-01-11T19:13:10+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 917: http://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/917?key=wc_order_5a579b1d3c450&utm_nooverride=1
+2018-01-11T19:13:46+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients

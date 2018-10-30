@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /locaties/amsterdam/
+Disallow: /wattcycling-locaties-header-part/

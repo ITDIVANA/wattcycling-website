@@ -1,0 +1,15 @@
+2018-06-28T10:24:55+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1381
+2018-06-28T10:24:56+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_FuP72Q7ARC (live) created for order 1381
+2018-06-28T10:24:56+00:00 DEBUG For order 1381 redirect user to payment URL: https://betalen.rabobank.nl/ideal-betaling/landingpage?random=7e20429fee1102377dc9d6ba95a9a9b4e46f2c9af99aaf16a40316b2cd3769f4&trxid=0030003007756824
+2018-06-28T10:26:11+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1382
+2018-06-28T10:26:11+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_Bjwh3248P5 (live) created for order 1382
+2018-06-28T10:26:11+00:00 DEBUG For order 1382 redirect user to payment URL: https://betalen.rabobank.nl/ideal-betaling/landingpage?random=c3c2db1be9ffaa0e2ef31b6b8e0b59069517cd524c598cc6a9c84cbaf950407b&trxid=0030003007759788
+2018-06-28T10:27:17+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1382
+2018-06-28T10:27:17+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_KmraEh4MA4 (live) created for order 1382
+2018-06-28T10:27:17+00:00 DEBUG For order 1382 redirect user to payment URL: https://betalen.rabobank.nl/ideal-betaling/landingpage?random=ac00dcce1372c3f8d0ec05a358f1f8d0cb6b2c8fb4fdc4dd8628d75d11b71f49&trxid=0030003007762872
+2018-06-28T10:27:30+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_KmraEh4MA4 (live) webhook call for order 1382.
+2018-06-28T10:27:30+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1382
+2018-06-28T10:27:33+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1382: https://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/1382/?key=wc_order_5b349ba2cf457&utm_nooverride=1
+2018-06-28T10:40:52+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_FuP72Q7ARC (live) webhook call for order 1381.
+2018-06-28T10:40:52+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookExpired called for order 1381
+2018-06-28T10:42:24+00:00 DEBUG mollie_wc_gateway_ideal: Order 1382 does not need a payment (payment webhook tr_Bjwh3248P5).

@@ -1,0 +1,8 @@
+2018-10-24T16:59:08+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1522
+2018-10-24T16:59:08+00:00 DEBUG mollie_wc_gateway_ideal: Order 1522 webhookUrl: https://wattcycling.nl/wc-api/mollie_wc_gateway_ideal/?order_id=1522&key=wc_order_5bd088bc6dfaf
+2018-10-24T16:59:08+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1522
+2018-10-24T16:59:09+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_uwWrz4Teqf (live) created for order 1522
+2018-10-24T16:59:09+00:00 DEBUG For order 1522 redirect user to payment URL: https://betalen.rabobank.nl/ideal-betaling/landingpage?random=817542b7f161b24f9689c41c997b6a337cbde7b9a3b1e5137d8fd1e9f8afccdd&trxid=0030003338115042
+2018-10-24T17:16:05+00:00 DEBUG mollie_wc_gateway_ideal: Order 1522 orderNeedsPayment check, yes, not processed by Mollie gateway.
+2018-10-24T17:16:05+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_uwWrz4Teqf (live) webhook call for order 1522.
+2018-10-24T17:16:05+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookExpired called for order 1522

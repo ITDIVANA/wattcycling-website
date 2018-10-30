@@ -1,0 +1,7 @@
+2018-04-11T16:41:27+00:00 DEBUG getUserMollieCustomerId: Mollie Customer ID  not valid for this API key, try to create a new one (live).
+2018-04-11T16:41:27+00:00 DEBUG getUserMollieCustomerId: Created a Mollie Customer for WordPress user with ID 9 (live).
+2018-04-11T16:41:27+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1251
+2018-04-11T16:41:27+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_xm8P7N73N9 (live) created for order 1251
+2018-04-11T16:41:27+00:00 DEBUG For order 1251 redirect user to payment URL: https://betalen.rabobank.nl/ideal-betaling/landingpage?random=0958a4b18c920e37a30e35bdd1f189684993aa6944c28ec9ea2351a014bb96fb&trxid=0030002797030508
+2018-04-11T16:57:36+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_xm8P7N73N9 (live) webhook call for order 1251.
+2018-04-11T16:57:36+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookExpired called for order 1251

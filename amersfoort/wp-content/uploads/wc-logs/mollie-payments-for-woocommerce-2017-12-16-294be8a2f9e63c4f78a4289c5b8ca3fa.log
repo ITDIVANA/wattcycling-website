@@ -1,0 +1,10 @@
+2017-12-16T16:28:06+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 743
+2017-12-16T16:28:07+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_pd6SEgre4d (live) created for order 743
+2017-12-16T16:28:07+00:00 DEBUG For order 743 redirect user to payment URL: https://www.abnamro.nl/nl/ideal-betalen/index.html?randomizedstring=2573444250&trxid=0030002524218868
+2017-12-16T16:32:38+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 744
+2017-12-16T16:32:39+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_emHCmSm663 (live) created for order 744
+2017-12-16T16:32:39+00:00 DEBUG For order 744 redirect user to payment URL: https://www.abnamro.nl/nl/ideal-betalen/index.html?randomizedstring=4288740506&trxid=0030002524229202
+2017-12-16T16:36:30+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_emHCmSm663 (live) webhook call for order 744.
+2017-12-16T16:36:30+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 744
+2017-12-16T16:45:09+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_pd6SEgre4d (live) webhook call for order 743.
+2017-12-16T16:45:09+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookExpired called for order 743

@@ -20,8 +20,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-wc_print_notices();
+global $woocommerce;
+$cart_items = $woocommerce->cart->get_cart();
+// loop through the items looking for one in the ineligible array
 
+$notShippingProdusts = array(701);
+
+wc_print_notices();
 
 do_action('show_review_order_custom');
 
@@ -32,9 +37,22 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 	echo apply_filters( 'woocommerce_checkout_must_be_logged_in_message', __( 'You must be logged in to checkout.', 'woocommerce' ) );
 	return;
 }
-
 ?>
-
+<?php
+/* echo "<pre>";
+print_r($_SESSION);
+print_r($_COOKIE);
+echo "</pre>"; */
+foreach ( $cart_items as $key => $item ){ 
+	if(!in_array($item['product_id'], $notShippingProdusts)){
+			//add_filter( 'woocommerce_shipping_chosen_method', '__return_false', 99);
+			//echo apply_filter( 'woocommerce_shipping_chosen_method', '__return_false' );
+	}
+}
+?>
+<?php if(is_checkout()){ ?>
+<div class="checkout_title"><h3><?php the_title(); ?></h3></div>
+<?php } ?>
 <form name="checkout" method="post" class="checkout woocommerce-checkout" action="<?php echo esc_url( wc_get_checkout_url() ); ?>" enctype="multipart/form-data">
 
 	<?php if ( $checkout->get_checkout_fields() ) : ?>
@@ -42,7 +60,21 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		<?php do_action( 'woocommerce_checkout_before_customer_details' ); ?>
 
 		<div class="col2-set" id="customer_details">
-			<div class="col-1">
+			<div class="col-1"> 
+				<?php foreach ( $cart_items as $key => $item ){ ?>
+					<?php if(!in_array($item['product_id'], $notShippingProdusts)){ ?>
+						<?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
+
+						<?php do_action( 'woocommerce_review_order_before_shipping' ); ?>
+
+						<?php wc_cart_totals_shipping_html(); ?>
+
+						<?php do_action( 'woocommerce_review_order_after_shipping' ); ?>
+
+						<?php endif; ?>
+					<?php } ?>
+				<?php } ?>
+
 				<?php do_action( 'woocommerce_checkout_billing' ); ?>
 			</div>
 
@@ -55,12 +87,13 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 	<?php endif; ?>
 
-	<h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
+	<h3 id="order_review_heading"><?php _e( 'JE BESTELLING', 'woocommerce' ); ?></h3>
 
 	<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
 
 	<div id="order_review" class="woocommerce-checkout-review-order">
 		<?php do_action( 'woocommerce_checkout_order_review' ); ?>
+		<span class="order_review_btm_txt">Persoonlijke gegevens worden niet anders gebruikt dan voor WattCycling</span>
 	</div>
 
 	<?php do_action( 'woocommerce_checkout_after_order_review' ); ?>

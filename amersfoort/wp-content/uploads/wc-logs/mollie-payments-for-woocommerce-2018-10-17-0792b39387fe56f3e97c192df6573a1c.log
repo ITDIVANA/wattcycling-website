@@ -1,0 +1,16 @@
+2018-10-17T11:49:55+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2018-10-17T11:50:22+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1763
+2018-10-17T11:50:22+00:00 DEBUG getUserMollieCustomerId: Mollie Customer ID (cst_hjGGQwRTdy) found and valid for user 11 on this API key. (test).
+2018-10-17T11:50:22+00:00 DEBUG mollie_wc_gateway_ideal: Order 1763 webhookUrl: https://wattcycling.nl/amersfoort/wc-api/mollie_wc_gateway_ideal/?order_id=1763&key=wc_order_5bc705dddf859
+2018-10-17T11:50:22+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1763
+2018-10-17T11:50:22+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_vGrK4d4fnr (test) created for order 1763
+2018-10-17T11:50:22+00:00 DEBUG For order 1763 redirect user to Mollie Checkout URL: https://www.mollie.com/paymentscreen/testmode/?method=ideal&token=4fndlb
+2018-10-17T11:50:25+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_vGrK4d4fnr (test) webhook call for order 1763.
+2018-10-17T11:50:25+00:00 DEBUG mollie_wc_gateway_ideal: Order 1763 orderNeedsPayment check: yes, not processed by Mollie gateway.
+2018-10-17T11:50:25+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1763
+2018-10-17T11:50:25+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid WooCommerce payment_complete() processed and returned to onWebHookPaid for order 1763
+2018-10-17T11:50:25+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid processing paid order via Mollie plugin fully completed for order 1763
+2018-10-17T11:50:26+00:00 DEBUG Mollie_WC_Gateway_Abstract::getReturnRedirectUrlForOrder 1763: Determine what the redirect URL in WooCommerce should be.
+2018-10-17T11:50:26+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1763: https://wattcycling.nl/amersfoort/afrekenen/bestelling-ontvangen/1763/?key=wc_order_5bc705dddf859&utm_nooverride=1
+2018-10-17T11:50:34+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2018-10-17T17:47:26+00:00 DEBUG isAvailableMethodInCheckout: Could not check availability of Mollie payment methods (live): Error executing API call (400: Bad Request): The amount is lower than the minimum. Field: amount. Documentation: https://docs.mollie.com/guides/handling-errors (Mollie\Api\Exceptions\ApiException)

@@ -454,7 +454,7 @@ li#menu-item-983 a.menu-item-link.js-smooth-scroll {
 #mk-page-introduce{
     display: none;
 }
-body.page-template-default.page.page-id-1093 input.wpcf7-form-control.wpcf7-submit {
+body.page-template-default.page.page-id-1093 input.wpcf7-form-control.wpcf7-submit, body.page-template-default.page.page-id-1270 input.wpcf7-form-control.wpcf7-submit, body.page-template-default.page.page-id-1293 input.wpcf7-form-control.wpcf7-, body.page-template-default.page.page-id-1423 input.wpcf7-form-control.wpcf7-submit {
     background: #333;
     color: #fff;
     margin-top: 14px;
@@ -504,14 +504,15 @@ div#custom_secondary_menu_cls ul {
 }
 div#custom_secondary_menu_cls ul  li{
     border: none;
+	margin-top: 15px;
 }
 div#custom_secondary_menu_cls ul li a {
     font-size: 14px;
-    font-weight: 600; 
-    line-height: 14px;
+    font-weight: 600;    
 }
 .secondary_menu_logo img {
-    width: 100px !important;
+    width: 70px !important;
+    margin-top: 10px;
 }
 div#secondary_menu_main_div {box-shadow: 0px 2px 2px #ccc;display: inline-block;width: 100%;}
 div#secondary_menu_main_div.secondary_menu_fixed_div {
@@ -522,7 +523,15 @@ div#secondary_menu_main_div.secondary_menu_fixed_div {
     left: 0;
 	z-index: 999;
 }
-.logged-in.admin-bar div#secondary_menu_main_div {margin-top: 32px;}
+.logged-in.admin-bar div.secondary_menu_fixed_div {margin-top: 32px;}
 .a-sticky ul#menu-primary-menu {margin-top: 20px;}
-.page.page-id-1128 .mk-header-holder.main_menu_postion_cls, .page.page-id-1236 .mk-header-holder.main_menu_postion_cls { position: unset !important;}
-div#secondary_menu_main_div ul li a {line-height: 75px;} 
+div#secondary_menu_main_div ul li a {    padding: 4px 10px;}
+.secondary_menu_logo h2 {text-transform: capitalize !important;padding-top: 18px !important;font-size: 30px !important;}
+.secondary_menu_logo h2  a{    font-weight: 600;}
+.secondary_menu_logo .vc_column-inner {padding-left: 0 !important;padding-right: 0 !important;}
+.page-template-template-location-page .mk-main-wrapper-holder {display: none;}
+.menu-item-1186 a {border: 1.5px solid #333 !important;border-radius: 5px;}
+.menu-item-1455 a {border: 1.5px solid #db291d !important;border-radius: 5px;margin-left: 6px !important;}
+.menu-item-1186 a:hover{background: #333;color: #fff !important;}
+.menu-item-1455 a:hover{background: #db291d;color: #fff !important;}
+.menu-item-1188 a {color: #03363d;font-size: 12px !important;font-weight: normal !important;}

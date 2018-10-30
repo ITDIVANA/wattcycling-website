@@ -12309,14 +12309,18 @@ function product_loop_add_cart() {
      * Entry point of application. Runs all components
      */
     $( window ).on( 'load', function() {
-        MK.core.initAll( document );
-        MK.utils.scrollToURLHash();
-        // TODO move preloader to components and manage it state from within
-        setTimeout( function() { 
-            MK.ui.preloader.hide(); // site wide 
-            $('.mk-preloader').hide(); // components
-            $('body').removeClass('loading');
-        }, 150 ); 
+		if(jQuery(".page-template-template-location-page").length > 0) {		
+					//console.log("I am here.");
+		}else{	
+			MK.core.initAll( document );
+			MK.utils.scrollToURLHash();
+			// TODO move preloader to components and manage it state from within
+			setTimeout( function() { 
+				MK.ui.preloader.hide(); // site wide 
+				$('.mk-preloader').hide(); // components
+					$('body').removeClass('loading');
+			}, 150 ); 
+		}
     });
 
     /**

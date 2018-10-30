@@ -1,0 +1,31 @@
+2017-11-09T13:34:35+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-11-09T13:35:23+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 678
+2017-11-09T13:35:23+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_Va6enaQxEK (test) created for order 678
+2017-11-09T13:35:23+00:00 DEBUG For order 678 redirect user to payment URL: https://www.mollie.com/paymentscreen/issuer/select/ideal/Va6enaQxEK
+2017-11-09T13:35:34+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_Va6enaQxEK (test) webhook call for order 678.
+2017-11-09T13:35:34+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 678
+2017-11-09T13:35:36+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 678: http://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/678?key=wc_order_5a043d7b521ae&utm_nooverride=1
+2017-11-09T13:36:09+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-11-09T13:40:41+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-11-09T13:41:39+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-11-09T13:42:31+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 679
+2017-11-09T13:42:31+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_ErsDjP2JTW (test) created for order 679
+2017-11-09T13:42:31+00:00 DEBUG For order 679 redirect user to payment URL: https://www.mollie.com/paymentscreen/issuer/select/ideal/ErsDjP2JTW
+2017-11-09T13:42:37+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_ErsDjP2JTW (test) webhook call for order 679.
+2017-11-09T13:42:37+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 679
+2017-11-09T13:42:38+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 679: http://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/679?key=wc_order_5a043f2793370&utm_nooverride=1
+2017-11-09T13:43:01+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-11-09T13:43:56+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-11-09T13:44:09+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 680
+2017-11-09T13:44:09+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_qS2V58zgsx (test) created for order 680
+2017-11-09T13:44:09+00:00 DEBUG For order 680 redirect user to payment URL: https://www.mollie.com/paymentscreen/issuer/select/ideal/qS2V58zgsx
+2017-11-09T13:44:14+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_qS2V58zgsx (test) webhook call for order 680.
+2017-11-09T13:44:14+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 680
+2017-11-09T13:44:15+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 680: http://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/680?key=wc_order_5a043f88c3c98&utm_nooverride=1
+2017-11-09T13:44:43+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2017-11-09T14:48:05+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 681
+2017-11-09T14:48:06+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_9QPm2A3c7A (live) created for order 681
+2017-11-09T14:48:06+00:00 DEBUG For order 681 redirect user to payment URL: https://bankieren.ideal.ing.nl/ideal/betalen/inlog-annuleren/static/detect_mob?trxid=0030002439393673&random=zc1f26517a788a42
+2017-11-09T14:49:08+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_9QPm2A3c7A (live) webhook call for order 681.
+2017-11-09T14:49:08+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 681
+2017-11-09T14:49:09+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 681: http://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/681?key=wc_order_5a044e859f243&utm_nooverride=1

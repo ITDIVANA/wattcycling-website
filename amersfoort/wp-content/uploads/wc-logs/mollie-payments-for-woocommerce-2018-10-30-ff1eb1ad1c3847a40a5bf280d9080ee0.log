@@ -1,0 +1,14 @@
+2018-10-30T11:16:53+00:00 DEBUG isAvailableMethodInCheckout: Could not check availability of Mollie payment methods (live): Error executing API call (400: Bad Request): The amount is lower than the minimum. Field: amount. Documentation: https://docs.mollie.com/guides/handling-errors (Mollie\Api\Exceptions\ApiException)
+2018-10-30T12:14:30+00:00 DEBUG isAvailableMethodInCheckout: Could not check availability of Mollie payment methods (live): Error executing API call (400: Bad Request): The amount is lower than the minimum. Field: amount. Documentation: https://docs.mollie.com/guides/handling-errors (Mollie\Api\Exceptions\ApiException)
+2018-10-30T12:25:34+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1826
+2018-10-30T12:25:34+00:00 DEBUG mollie_wc_gateway_ideal: Order 1826 webhookUrl: https://wattcycling.nl/amersfoort/wc-api/mollie_wc_gateway_ideal/?order_id=1826&key=wc_order_5bd8319ecd932
+2018-10-30T12:25:34+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1826
+2018-10-30T12:25:35+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_DM6h4fCvck (live) created for order 1826
+2018-10-30T12:25:35+00:00 DEBUG For order 1826 redirect user to Mollie Checkout URL: https://betalen.rabobank.nl/ideal-betaling/landingpage?random=02aa5ee848cf67ea1be436f8aad33e661649142f6d522678e0b65886973a480f&trxid=0030003357297763
+2018-10-30T12:25:51+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_DM6h4fCvck (live) webhook call for order 1826.
+2018-10-30T12:25:51+00:00 DEBUG mollie_wc_gateway_ideal: Order 1826 orderNeedsPayment check: yes, not processed by Mollie gateway.
+2018-10-30T12:25:51+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1826
+2018-10-30T12:25:51+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid WooCommerce payment_complete() processed and returned to onWebHookPaid for order 1826
+2018-10-30T12:25:51+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid processing paid order via Mollie plugin fully completed for order 1826
+2018-10-30T12:25:52+00:00 DEBUG Mollie_WC_Gateway_Abstract::getReturnRedirectUrlForOrder 1826: Determine what the redirect URL in WooCommerce should be.
+2018-10-30T12:25:52+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1826: https://wattcycling.nl/amersfoort/afrekenen/bestelling-ontvangen/1826/?key=wc_order_5bd8319ecd932&utm_nooverride=1

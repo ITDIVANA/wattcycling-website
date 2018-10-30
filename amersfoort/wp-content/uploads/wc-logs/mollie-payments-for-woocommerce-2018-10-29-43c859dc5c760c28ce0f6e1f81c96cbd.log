@@ -1,0 +1,16 @@
+2018-10-29T07:45:59+00:00 DEBUG isAvailableMethodInCheckout: Could not check availability of Mollie payment methods (live): Error executing API call (400: Bad Request): The amount is lower than the minimum. Field: amount. Documentation: https://docs.mollie.com/guides/handling-errors (Mollie\Api\Exceptions\ApiException)
+2018-10-29T08:58:30+00:00 DEBUG isAvailableMethodInCheckout: Could not check availability of Mollie payment methods (live): Error executing API call (400: Bad Request): The amount is lower than the minimum. Field: amount. Documentation: https://docs.mollie.com/guides/handling-errors (Mollie\Api\Exceptions\ApiException)
+2018-10-29T09:05:25+00:00 DEBUG isAvailableMethodInCheckout: Could not check availability of Mollie payment methods (live): Error executing API call (400: Bad Request): The amount is lower than the minimum. Field: amount. Documentation: https://docs.mollie.com/guides/handling-errors (Mollie\Api\Exceptions\ApiException)
+2018-10-29T09:11:35+00:00 DEBUG isAvailableMethodInCheckout: Could not check availability of Mollie payment methods (live): Error executing API call (400: Bad Request): The amount is lower than the minimum. Field: amount. Documentation: https://docs.mollie.com/guides/handling-errors (Mollie\Api\Exceptions\ApiException)
+2018-10-29T09:26:31+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1821
+2018-10-29T09:26:31+00:00 DEBUG mollie_wc_gateway_ideal: Order 1821 webhookUrl: https://wattcycling.nl/amersfoort/wc-api/mollie_wc_gateway_ideal/?order_id=1821&key=wc_order_5bd6b627901e6
+2018-10-29T09:26:31+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1821
+2018-10-29T09:26:32+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_5yjCfczU9p (live) created for order 1821
+2018-10-29T09:26:32+00:00 DEBUG For order 1821 redirect user to Mollie Checkout URL: https://betalen.rabobank.nl/ideal-betaling/landingpage?random=3b4e4d655213372ce495f143497156a72858193d68366bad7ffbd687f6e5d44e&trxid=0030003353652527
+2018-10-29T09:27:00+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_5yjCfczU9p (live) webhook call for order 1821.
+2018-10-29T09:27:00+00:00 DEBUG mollie_wc_gateway_ideal: Order 1821 orderNeedsPayment check: yes, not processed by Mollie gateway.
+2018-10-29T09:27:00+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1821
+2018-10-29T09:27:01+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid WooCommerce payment_complete() processed and returned to onWebHookPaid for order 1821
+2018-10-29T09:27:01+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid processing paid order via Mollie plugin fully completed for order 1821
+2018-10-29T09:27:02+00:00 DEBUG Mollie_WC_Gateway_Abstract::getReturnRedirectUrlForOrder 1821: Determine what the redirect URL in WooCommerce should be.
+2018-10-29T09:27:02+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1821: https://wattcycling.nl/amersfoort/afrekenen/bestelling-ontvangen/1821/?key=wc_order_5bd6b627901e6&utm_nooverride=1

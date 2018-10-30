@@ -1,0 +1,8 @@
+.isa_success{color:#4F8A10;background-color:#DFF2BF;text-align:center;display:none;}
+.contact_isa_success{color:#4F8A10;background-color:#DFF2BF;text-align:center;display:none;}
+.isa_error{color:#fff;background-color:red;text-align:center;display:none;}
+.loader{display:none;position:fixed;z-index:1000;top:0;left:0;height:100%;width:100%;background:rgba(255, 255, 255, .8)
+url('https://i.stack.imgur.com/FhHRx.gif')
+50% 50%
+no-repeat;}
+.error{color:red;}

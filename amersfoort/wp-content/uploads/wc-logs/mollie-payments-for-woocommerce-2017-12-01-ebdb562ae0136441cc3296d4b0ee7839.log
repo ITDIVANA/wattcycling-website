@@ -1,0 +1,6 @@
+2017-12-01T13:40:30+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 734
+2017-12-01T13:40:31+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_P9HnNBW6Br (live) created for order 734
+2017-12-01T13:40:31+00:00 DEBUG For order 734 redirect user to payment URL: https://diensten.snsbank.nl/online/ideal/sign?sp=D51AB30CF665AECB8BB5E3DEAF77E6372C174983000081285130&trxid=0030002490143874
+2017-12-01T13:42:04+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_P9HnNBW6Br (live) webhook call for order 734.
+2017-12-01T13:42:04+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 734
+2017-12-01T13:42:06+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 734: http://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/734?key=wc_order_5a213fae55c5b&utm_nooverride=1

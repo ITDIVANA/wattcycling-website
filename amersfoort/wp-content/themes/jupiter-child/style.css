@@ -1,0 +1,234 @@
+/*
+Theme Name:     Jupiter Child Theme
+Theme URI: 		http://themeforest.net/user/artbees
+Description:    Child theme for the Jupiter theme 
+Author:         Your name here
+Theme URI: 		http://themeforest.net/user/artbees
+Template:       jupiter
+Version:        1.0
+*/
+
+
+
+/*
+Sample : remove the comment and start adding your own custom CSS rules.
+
+body {
+	background-color:#fff;
+}
+
+*/
+#menu-item-91 a.menu-item-link.js-smooth-scroll{border: 1.5px solid #db291d;border-radius: 5px;padding: 4px 0px;}
+#menu-item-690 a.menu-item-link.js-smooth-scroll { border: 1.5px solid #333;border-radius: 5px;padding: 4px 0px;}
+li#menu-item-690 {margin-right: 5px;}
+#menu-item-91 a.menu-item-link.js-smooth-scroll:hover{background: #db291d;color: #fff;}
+#menu-item-690 a.menu-item-link.js-smooth-scroll:hover{background: #333;color: #fff;}
+#menu-item-690 a.menu-item-link.js-smooth-scroll:after, #menu-item-91  a.menu-item-link.js-smooth-scroll:after {background-color: transparent !important;}
+.ams_dropdown_cls {min-width: 300px !important;}
+
+@media handheld, only screen and (min-width: 1141px) and (max-width: 1440px){
+.mk-grid.header-grid {position: absolute;max-width: 1250px;right: 0;}
+}
+#menu-item-741 a.menu-item-link.js-smooth-scroll{font-size: 11px;}
+li#menu-item-12 a.menu-item-link.js-smooth-scroll, li#menu-item-418 a.menu-item-link.js-smooth-scroll, li#menu-item-1028 a.menu-item-link.js-smooth-scroll{padding-left: 0px !important;}
+@media handheld, only screen and (max-width: 767px){
+	.woocommerce #payment ul.payment_methods li img {
+		margin: 5px 0 0 -10px;
+	}
+body.page-template-default.page.page-id-445.woocommerce-checkout	div#theme-page {
+    top: 50px;
+}
+.single-product.woocommerce figure.woocommerce-product-gallery__wrapper {
+    display: none;
+}
+}
+@media handheld, only screen and (min-width: 767px){
+	body.page-template-default.page.page-id-445.woocommerce-checkout {
+    background: url(https://wattcycling.nl/amsterdam-amstel/wp-content/uploads/2018/04/groupstyled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;	
+    background-attachment: fixed;
+}
+	body.page-template-default.page.page-id-445.woocommerce-checkout  #theme-page {
+		width: 55%;
+		margin: 100px auto;
+	}
+	#theme-page .theme-page-wrapper .theme-content {
+    padding: 30px 60px !important;
+}
+.woocommerce #payment ul.payment_methods li img {
+    margin: 0 0 0 -10px;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce .col2-set .col-1{width:100%;}
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .mk-header, body.page-template-default.page.page-id-445.woocommerce-checkout .mk-header-bg {
+    background-color: transparent;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .mk-main-navigation {
+    display: none;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .mk-header-inner, body.page-template-default.page.page-id-445.woocommerce-checkout .mk-header{
+    border-bottom: 0px;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .quantity.buttons_added {
+    display: none;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce-info {    
+    border-color: #eee;    
+    background-color: transparent;    
+    padding-bottom: 0px !important;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce form.checkout_coupon {
+     background-color: transparent;    
+    padding: 0px !important;    
+    margin-top: 0px !important;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce #payment {
+    background: #fff;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce #payment div.form-row {
+    text-align: center;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce #payment #place_order{
+    float: none;
+    padding: 20px 60px !important;
+    border-radius: 8px;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce #payment div.payment_box {
+     background-color: #fff;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce #payment div.payment_box::before, body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce #payment ul.payment_methods{border: none;}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce #payment ul.payment_methods li {
+    float: left;
+    width: 100%;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce #payment ul.payment_methods li label {
+    margin-top: 25px;
+    float: left;
+    width: 10%;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce #payment div.payment_box {
+    position: unset;
+    width: 90%;
+    margin: 13px;
+}
+.woocommerce-info{
+    border-width:0px !important;
+}
+form.checkout_coupon{
+    border-width:0px !important;
+}
+p.form-row.form-row-last button{
+    border-radius:8px !important;
+}
+.woocommerce-info{
+    margin-top:-58px;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .mk-header-holder {
+    position: static;
+}
+.checkout_title {
+    position: absolute;
+    top: -40px;
+}
+.checkout_title h3 {
+    font-weight: normal;
+    font-size: 20px;
+	color: #666;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout table.shop_table.woocommerce-checkout-review-order-table {
+    margin-bottom: 0px !important;
+}
+/* Optional */
+#checkout_cart input#coupon_code {
+  width:auto;
+}
+
+/* Style to overcome jQuery dialog's inline styling on the coupon dialog (Optional) */
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.coupon-special {
+  position: relative;
+  top: 0 !important;
+  left: 0 !important;
+  border: 0;
+}
+
+/* Remove the close coupon field button (Optional) */
+.ui-widget-header {
+  display:none;
+}
+#coupon-anchor .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.coupon-special {
+    width: 100% !important;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout #customer_details {
+    margin-bottom: 20px !important;
+}
+span.show_coupon_div {
+    margin-bottom: 20px;
+    display: block;
+}
+form.checkout_coupon.ui-dialog-content.ui-widget-content button.button{
+	font-size: 10px !important;
+    padding: 12px 8px !important;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .woocommerce form .form-row .required {
+    color: #000;
+    text-decoration: none;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .mk-css-icon-menu {
+    display: none;
+}
+body.page-template-default.page.page-id-445.woocommerce-checkout .checkout_title {
+    margin-top: 20px;
+}
+.woocommerce .button.single_add_to_cart_button {
+    border-radius: 5px;
+}
+.single-product .product_meta {
+    border: 0 !important;
+}
+.single-product.woocommerce  div.product form.cart div.quantity {
+    display: none;
+}
+.single-product.woocommerce div#product-448 .woocommerce-product-details__short-description {
+    margin-bottom: -30px;
+}
+.amsterdam-amstel-schedule-tab ul.vc_tta-tabs-list {
+    text-align: center;
+}
+.top-navigation-ul {
+    display: block;
+    float: right;
+    width: 100%;
+}
+ul.uj-top-menu {
+    float: right;
+    display: -webkit-box;
+    padding-right: 20px;
+    padding-top: 16px;
+}
+ul.uj-top-menu li {
+    list-style-type: none;
+}
+ul.uj-top-menu li a {
+    color: #03363d;
+    font-size: 12px;
+}
+ul.uj-top-menu li a:hover {
+    color: #da291c;
+}
+ul#menu-wattcycling-menu li {
+    line-height: 40px !important;
+}
+.header-style-1.a-sticky .menu-hover-style-5 ul#menu-wattcycling-menu > li, .a-sticky:not(.header-style-4) .mk-header-inner.add-header-height{
+    line-height: 30px !important;
+	height: 70px !important;
+} 
+.main-nav-side-search {
+    display: none;
+}
+.amersfoort_custom_button_cls {
+    display: block;
+    margin-bottom: 10px !important;
+}
+.single-product .variations tbody tr td.value {display: -webkit-box !important;}

@@ -1,0 +1,6 @@
+2018-03-09T12:00:04+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1199
+2018-03-09T12:00:05+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_zdSC7nHy2n (live) created for order 1199
+2018-03-09T12:00:05+00:00 DEBUG For order 1199 redirect user to payment URL: https://betalen.rabobank.nl/ideal-betaling/landingpage?random=890e79cd031ab977640832bd0c16ea64f841d051d3631084baf75030b7686e70&trxid=0030002717419309
+2018-03-09T12:00:45+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_zdSC7nHy2n (live) webhook call for order 1199.
+2018-03-09T12:00:45+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1199
+2018-03-09T12:00:46+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1199: https://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/1199?key=wc_order_5aa25b2451ef4&utm_nooverride=1

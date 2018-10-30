@@ -1,0 +1,4 @@
+[19-Sep-2018 15:41:36 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/myperf65/public_html/wattcycling.nl/wp-content/plugins/hello.php on line 60

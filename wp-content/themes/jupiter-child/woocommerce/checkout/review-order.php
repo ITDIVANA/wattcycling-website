@@ -20,6 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
+
 <table class="shop_table woocommerce-checkout-review-order-table">
 	<thead>
 		<tr>
@@ -39,8 +40,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<tr class="<?php echo esc_attr( apply_filters( 'woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key ) ); ?>">
 						<td class="product-name">
 							<?php echo apply_filters( 'woocommerce_cart_item_name', $_product->get_name(), $cart_item, $cart_item_key ) . '&nbsp;'; ?>
-							<?php echo apply_filters( 'woocommerce_checkout_cart_item_quantity', ' <strong class="product-quantity">' . sprintf( '&times; %s', $cart_item['quantity'] ) . '</strong>', $cart_item, $cart_item_key ); ?>
-							<?php echo WC()->cart->get_item_data( $cart_item ); ?>
+							<strong class="product-quantity"><?php echo sprintf ( _n( 'x %d', 'x %d', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?></strong>
+							<?php //echo apply_filters( 'woocommerce_checkout_cart_item_quantity', ' <strong class="product-quantity">' . sprintf( '&times; %s', $cart_item['quantity'] ) . '</strong>', $cart_item, $cart_item_key ); ?>
+							<?php //echo WC()->cart->get_item_data( $cart_item ); ?> <br />
+							<span class="product_subline_cls"><?php echo get_post_meta(  $_product->id, '_subtitle', true ); ?></span>
 						</td>
 						<td class="product-total">
 							<?php echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); ?>
@@ -48,9 +51,38 @@ if ( ! defined( 'ABSPATH' ) ) {
 					</tr>
 					<?php
 				}
-			}
-
-			do_action( 'woocommerce_review_order_after_cart_contents' );
+			}?>
+			<?php 
+				$total_shipping = WC()->cart->shipping_total;
+				if($total_shipping == "0.00"){
+					$total_shipping_price = "<span class=gratis> gratis </span>";
+				}else{
+					$total_shipping_price = wc_price($total_shipping);
+				}
+				$chosen_methods = WC()->session->get( 'chosen_shipping_methods' );
+				$chosen_shipping = $chosen_methods[0];
+				 $packages = WC()->shipping->get_packages();
+/* echo "<pre>";
+print_r($packages);
+echo "</pre>";
+ */				 $notShippingProdusts = 701;
+			?>
+			<?php 	 
+				foreach ( $packages as $i => $package ) {
+					if ( isset( $package['rates'] ) && isset( $package['rates'][ $chosen_shipping ] ) ) {
+					$rate = $package['rates'][ $chosen_shipping ];
+						 $shipping_title = $rate->get_label();
+						
+					}
+				} 
+				?>
+				<?php if(!empty($total_shipping_price) && !empty($shipping_title) && $_product->id!=$notShippingProdusts){ ?>
+					<tr>
+						<td><?php echo str_replace('– gratis',' ',$shipping_title); ?></td>
+						<td><?php echo $total_shipping_price; ?></td>
+					</tr>
+				<?php } ?>
+		<?php	do_action( 'woocommerce_review_order_after_cart_contents' );
 		?>
 	</tbody>
 	<tfoot>
@@ -67,15 +99,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</tr>
 		<?php endforeach; ?>
 
-		<?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
+		<?php //if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
 
-			<?php do_action( 'woocommerce_review_order_before_shipping' ); ?>
+			<?php //do_action( 'woocommerce_review_order_before_shipping' ); ?>
 
-			<?php wc_cart_totals_shipping_html(); ?>
+			<?php //wc_cart_totals_shipping_html(); ?>
 
-			<?php do_action( 'woocommerce_review_order_after_shipping' ); ?>
+			<?php //do_action( 'woocommerce_review_order_after_shipping' ); ?>
 
-		<?php endif; ?>
+		<?php //endif; ?>
 
 		<?php foreach ( WC()->cart->get_fees() as $fee ) : ?>
 			<tr class="fee">

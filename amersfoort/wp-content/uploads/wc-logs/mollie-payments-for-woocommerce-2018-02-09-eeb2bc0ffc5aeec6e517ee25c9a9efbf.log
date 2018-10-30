@@ -1,0 +1,10 @@
+2018-02-09T16:45:32+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 994
+2018-02-09T16:45:32+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_NRJUWjJEzp (live) created for order 994
+2018-02-09T16:45:32+00:00 DEBUG For order 994 redirect user to payment URL: https://diensten.asnbank.nl/online/ideal/sign?sp=5E65B2B6C29CB80A516D4438E9F00DA42012905E000086538117&trxid=0030002653820186
+2018-02-09T16:46:03+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 994
+2018-02-09T16:46:03+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_sTufjwUDtv (live) created for order 994
+2018-02-09T16:46:03+00:00 DEBUG For order 994 redirect user to payment URL: https://www.abnamro.nl/nl/ideal-betalen/index.html?randomizedstring=3616941922&trxid=0030002653820958
+2018-02-09T16:48:58+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_sTufjwUDtv (live) webhook call for order 994.
+2018-02-09T16:48:58+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 994
+2018-02-09T16:49:00+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 994: http://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/994?key=wc_order_5a7db40be41e9&utm_nooverride=1
+2018-02-09T17:01:26+00:00 DEBUG mollie_wc_gateway_ideal: Order 994 does not need a payment (payment webhook tr_NRJUWjJEzp).

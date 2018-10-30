@@ -1,0 +1,6 @@
+2018-08-24T19:03:29+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1523
+2018-08-24T19:03:30+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_sKWGxKUvqs (live) created for order 1523
+2018-08-24T19:03:30+00:00 DEBUG For order 1523 redirect user to payment URL: https://bankieren.ideal.ing.nl/ideal/betalen/inlog-annuleren/static/detect_mob?trxid=0030003160440826&random=z28dc1480eba1cc2
+2018-08-24T19:03:59+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_sKWGxKUvqs (live) webhook call for order 1523.
+2018-08-24T19:03:59+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1523
+2018-08-24T19:04:01+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1523: https://wattcycling.nl/amsterdam-amstel/afrekenen/bestelling-ontvangen/1523/?key=wc_order_5b803a6187448&utm_nooverride=1

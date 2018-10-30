@@ -1,0 +1,67 @@
+2018-10-03T07:53:19+00:00 DEBUG getPayment: Could not load payment tr_gsk2Qzyr3k (test): Error executing API call (request): The payment id is invalid. (Mollie_API_Exception)
+2018-10-03T07:53:19+00:00 DEBUG getPayment: Could not load payment tr_gsk2Qzyr3k (test): Error executing API call (request): The payment id is invalid. (Mollie_API_Exception)
+2018-10-03T08:05:49+00:00 DEBUG getPayment: Could not load payment tr_gsk2Qzyr3k (test): Error executing API call (request): The payment id is invalid. (Mollie_API_Exception)
+2018-10-03T08:05:49+00:00 DEBUG getPayment: Could not load payment tr_gsk2Qzyr3k (test): Error executing API call (request): The payment id is invalid. (Mollie_API_Exception)
+2018-10-03T10:30:57+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
+2018-10-03T10:32:14+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1403
+2018-10-03T10:32:14+00:00 DEBUG getUserMollieCustomerId: Mollie Customer ID (cst_En425R4zFR) found and valid for user 2 on this API key. (test).
+2018-10-03T10:32:14+00:00 DEBUG mollie_wc_gateway_ideal: Order 1403 webhookUrl: https://wattcycling.nl/wc-api/mollie_wc_gateway_ideal/?order_id=1403&key=wc_order_5bb47e8e43cfa
+2018-10-03T10:32:14+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1403
+2018-10-03T10:32:14+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_chA6grQNBh (test) created for order 1403
+2018-10-03T10:32:14+00:00 DEBUG For order 1403 redirect user to payment URL: https://www.mollie.com/paymentscreen/issuer/select/ideal/chA6grQNBh
+2018-10-03T10:32:19+00:00 DEBUG mollie_wc_gateway_ideal: Order 1403 orderNeedsPayment check, yes, not processed by Mollie gateway.
+2018-10-03T10:32:19+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_chA6grQNBh (test) webhook call for order 1403.
+2018-10-03T10:32:19+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1403
+2018-10-03T10:32:19+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1403: https://wattcycling.nl/afrekenen/bestelling-ontvangen/1403/?key=wc_order_5bb47e8e43cfa&utm_nooverride=1
+2018-10-03T10:33:55+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1404
+2018-10-03T10:33:55+00:00 DEBUG getUserMollieCustomerId: Mollie Customer ID (cst_En425R4zFR) found and valid for user 2 on this API key. (test).
+2018-10-03T10:33:55+00:00 DEBUG mollie_wc_gateway_ideal: Order 1404 webhookUrl: https://wattcycling.nl/wc-api/mollie_wc_gateway_ideal/?order_id=1404&key=wc_order_5bb47ef36b18c
+2018-10-03T10:33:55+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1404
+2018-10-03T10:33:55+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_dyQhQcPjDy (test) created for order 1404
+2018-10-03T10:33:55+00:00 DEBUG For order 1404 redirect user to payment URL: https://www.mollie.com/paymentscreen/testmode/?method=ideal&token=r50s69
+2018-10-03T10:33:58+00:00 DEBUG mollie_wc_gateway_ideal: Order 1404 orderNeedsPayment check, yes, not processed by Mollie gateway.
+2018-10-03T10:33:58+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_dyQhQcPjDy (test) webhook call for order 1404.
+2018-10-03T10:33:58+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1404
+2018-10-03T10:33:59+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1404: https://wattcycling.nl/afrekenen/bestelling-ontvangen/1404/?key=wc_order_5bb47ef36b18c&utm_nooverride=1
+2018-10-03T11:34:23+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1404: https://wattcycling.nl/afrekenen/bestelling-ontvangen/1404/?key=wc_order_5bb47ef36b18c&utm_nooverride=1
+2018-10-03T11:40:06+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1406
+2018-10-03T11:40:06+00:00 DEBUG getUserMollieCustomerId: Mollie Customer ID (cst_Qw8DdcscaR) found and valid for user 4 on this API key. (test).
+2018-10-03T11:40:06+00:00 DEBUG mollie_wc_gateway_ideal: Order 1406 webhookUrl: https://wattcycling.nl/wc-api/mollie_wc_gateway_ideal/?order_id=1406&key=wc_order_5bb48e75e9dbe
+2018-10-03T11:40:06+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1406
+2018-10-03T11:40:06+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_JjQGSHNc8S (test) created for order 1406
+2018-10-03T11:40:06+00:00 DEBUG For order 1406 redirect user to payment URL: https://www.mollie.com/paymentscreen/testmode/?method=ideal&token=9zhndb
+2018-10-03T11:40:39+00:00 DEBUG mollie_wc_gateway_ideal: Order 1406 orderNeedsPayment check, yes, not processed by Mollie gateway.
+2018-10-03T11:40:39+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_JjQGSHNc8S (test) webhook call for order 1406.
+2018-10-03T11:40:39+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1406
+2018-10-03T11:40:43+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1406: https://wattcycling.nl/afrekenen/bestelling-ontvangen/1406/?key=wc_order_5bb48e75e9dbe&utm_nooverride=1
+2018-10-03T12:53:08+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1407
+2018-10-03T12:53:08+00:00 DEBUG getUserMollieCustomerId: Mollie Customer ID (cst_En425R4zFR) found and valid for user 2 on this API key. (test).
+2018-10-03T12:53:08+00:00 DEBUG mollie_wc_gateway_ideal: Order 1407 webhookUrl: https://wattcycling.nl/wc-api/mollie_wc_gateway_ideal/?order_id=1407&key=wc_order_5bb49f9412a08
+2018-10-03T12:53:08+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1407
+2018-10-03T12:53:08+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_6jy8Avmfvr (test) created for order 1407
+2018-10-03T12:53:08+00:00 DEBUG For order 1407 redirect user to payment URL: https://www.mollie.com/paymentscreen/testmode/?method=ideal&token=gg22z7
+2018-10-03T12:53:10+00:00 DEBUG mollie_wc_gateway_ideal: Order 1407 orderNeedsPayment check, yes, not processed by Mollie gateway.
+2018-10-03T12:53:10+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_6jy8Avmfvr (test) webhook call for order 1407.
+2018-10-03T12:53:10+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1407
+2018-10-03T12:53:11+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1407: https://wattcycling.nl/afrekenen/bestelling-ontvangen/1407/?key=wc_order_5bb49f9412a08&utm_nooverride=1
+2018-10-03T12:54:31+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1408
+2018-10-03T12:54:31+00:00 DEBUG getUserMollieCustomerId: Mollie Customer ID (cst_En425R4zFR) found and valid for user 2 on this API key. (test).
+2018-10-03T12:54:31+00:00 DEBUG mollie_wc_gateway_ideal: Order 1408 webhookUrl: https://wattcycling.nl/wc-api/mollie_wc_gateway_ideal/?order_id=1408&key=wc_order_5bb49fe79c185
+2018-10-03T12:54:31+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1408
+2018-10-03T12:54:31+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_tep8b9zphc (test) created for order 1408
+2018-10-03T12:54:31+00:00 DEBUG For order 1408 redirect user to payment URL: https://www.mollie.com/paymentscreen/issuer/select/ideal/tep8b9zphc
+2018-10-03T12:54:36+00:00 DEBUG mollie_wc_gateway_ideal: Order 1408 orderNeedsPayment check, yes, not processed by Mollie gateway.
+2018-10-03T12:54:36+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_tep8b9zphc (test) webhook call for order 1408.
+2018-10-03T12:54:36+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1408
+2018-10-03T12:54:36+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1408: https://wattcycling.nl/afrekenen/bestelling-ontvangen/1408/?key=wc_order_5bb49fe79c185&utm_nooverride=1
+2018-10-03T12:57:03+00:00 DEBUG mollie_wc_gateway_ideal: Start process_payment for order 1409
+2018-10-03T12:57:03+00:00 DEBUG getUserMollieCustomerId: Mollie Customer ID (cst_En425R4zFR) found and valid for user 2 on this API key. (test).
+2018-10-03T12:57:03+00:00 DEBUG mollie_wc_gateway_ideal: Order 1409 webhookUrl: https://wattcycling.nl/wc-api/mollie_wc_gateway_ideal/?order_id=1409&key=wc_order_5bb4a07f4215b
+2018-10-03T12:57:03+00:00 DEBUG mollie_wc_gateway_ideal: Create payment for order 1409
+2018-10-03T12:57:03+00:00 DEBUG mollie_wc_gateway_ideal: Payment tr_dSDSGjmTyE (test) created for order 1409
+2018-10-03T12:57:03+00:00 DEBUG For order 1409 redirect user to payment URL: https://www.mollie.com/paymentscreen/testmode/?method=ideal&token=lntw1v
+2018-10-03T12:57:07+00:00 DEBUG mollie_wc_gateway_ideal: Order 1409 orderNeedsPayment check, yes, not processed by Mollie gateway.
+2018-10-03T12:57:07+00:00 DEBUG mollie_wc_gateway_ideal: Mollie payment tr_dSDSGjmTyE (test) webhook call for order 1409.
+2018-10-03T12:57:07+00:00 DEBUG Mollie_WC_Gateway_Abstract::onWebhookPaid called for order 1409
+2018-10-03T12:57:07+00:00 DEBUG Mollie_WC_Plugin::onMollieReturn: Redirect url on return order mollie_wc_gateway_ideal, order 1409: https://wattcycling.nl/afrekenen/bestelling-ontvangen/1409/?key=wc_order_5bb4a07f4215b&utm_nooverride=1
+2018-10-03T13:03:18+00:00 DEBUG Mollie_WC_Helper_Data::deleteTransients: Mollie settings saved, delete transients
